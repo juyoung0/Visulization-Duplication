@@ -1,0 +1,122 @@
+.history-link {
+    fill: none;
+    stroke: #555;
+    stroke-opacity: 0.4;
+    stroke-width: 1.5px;
+}
+.node-history rect {
+    fill: red;
+    stroke: black;
+    stroke-width: 5;
+    opacity: 0.5;
+}
+.node-history {
+    cursor: pointer;
+}
+
+.node-history circle {
+    fill: #fff;
+    stroke: steelblue;
+}
+
+circle.history-from {
+    fill: rgb(238, 162, 54) !important;
+}
+
+circle.history-to {
+    fill: yellow !important;
+
+}
+
+circle.selected-history {
+    fill: steelblue !important;
+}
+
+.found-history {
+    fill: #ff4136;
+    stroke: #ff4136;
+}
+
+.node-history text {
+    font: 12px sans-serif;
+}
+
+.link-history {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+
+.unit-node-history rect {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+
+.unit-history-from {
+    fill: rgb(238, 162, 54) !important;
+}
+
+.unit-history-to {
+    fill: yellow !important;
+
+}
+
+.unit-selected-history {
+    fill: steelblue !important;
+}
+
+.unit-found-history {
+    fill: #ff4136;
+    stroke: #ff4136;
+}
+
+.unit-node-history text {
+    font: 12px sans-serif;
+}
+
+.unit-link-history {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+rect.history-tree {
+    fill: none;
+    stroke: black;
+    stroke-width: 1;
+    opacity: 1
+}
+
+.dataTable tbody tr:hover{
+    background-color: #5bc0de;
+}
+
+.action-undo {
+    background-color : #9fff9f !important;
+    text-decoration: line-through;
+}
+
+#action_history_table_filter input {
+    height: 20px;
+    width: 100px;
+}
+.danger {
+    background-color: #ec4743  !important;
+}
+
+.dataTables_scroll table.scroll tbody,
+.dataTables_scroll table.scroll thead { display: block; }
+
+.dataTables_scroll table.scroll tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.dataTables_scrollHead{
+    overflow: visible !important;
+    position: static !important;
+}
+.prevent-undo, .prevent-undo:hover{
+    background-color: #ebcccc !important;
+    cursor: no-drop;
+}

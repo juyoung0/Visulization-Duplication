@@ -1,0 +1,49 @@
+
+
+/** tooltip **/
+/**.nodeTooltip {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 80px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 2px;
+    border-radius: 8px;
+    stroke: #000;
+}
+*/
+
+.nodeTooltip {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+
+    line-height: 1.3;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+
+    left: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+
+/** from-to  **/
+.nodeblock.history-from {
+    fill : yellow;
+}
+.nodeblock.history-to {
+    fill : orange;
+}
+
+.mini #border-rect:hover{
+    display: block;
+}

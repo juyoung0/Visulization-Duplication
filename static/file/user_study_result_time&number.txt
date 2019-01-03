@@ -1,0 +1,68 @@
+user : B23
+test
+1.
+Correct
+Correct
+user ans : 78
+ans : 78
+
+solving time : 0:02:28.687286
+annotation number : 1
+2.
+Correct
+Correct
+user ans : 46.6
+ans : 46.6
+
+solving time : 0:00:42.659963
+annotation number : 1
+3.
+Correct
+Correct
+user ans : 46~230
+ans : 46~230
+
+solving time : 0:03:32.694011
+annotation number : 1
+
+experiment
+1.
+Incorrect
+Correct
+user ans : BuickEstateWagon(Wagon)
+ans : Buick Estate Wagon (Wagon)
+
+solving time : 0:02:11.218490
+annotation number : 1
+2.
+Incorrect
+Correct
+user ans : BuickRegalSportCoupe(Turbo)
+ans : Buick Regal Sport Coupe (Turbo)
+
+solving time : 0:30:22.115186
+annotation number : 1
+3.
+Incorrect
+Correct
+user ans : ChryslerCordoba
+ans : Mercedes-Benz 280S
+
+solving time : 0:24:03.720904
+annotation number : 1
+4.
+Correct
+Correct
+user ans : (3)
+ans : (3)
+
+solving time : 0:15:22.452090
+annotation number : 10
+5.
+Incorrect
+Correct
+user ans : 7
+ans : 2
+
+solving time : 0:10:16.289209
+annotation number : 4

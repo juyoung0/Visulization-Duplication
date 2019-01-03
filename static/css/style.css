@@ -1,0 +1,128 @@
+html, body {
+    /*font-family: 'Roboto Slab', serif !important;*/
+    width: 100%;
+    height: 100% !important;
+}
+
+#left_main {
+    height: 100%;
+    width: 50%;
+    margin: 0 0 0 40px;
+    padding: 0;
+    border: 0;
+    background: #f2f2f2
+}
+
+#right_main {
+    height: 100%;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow:hidden;
+}
+
+.background{
+    fill: none;
+    stroke: #ddd;
+    shape-rendering: crispEdges;
+}
+
+.foreground{
+    fill: none;
+    stroke: steelblue;
+    display: inline;
+}
+
+.highlight{
+    fill: none;
+    stroke: #d50500;
+}
+
+.brush .extent {
+  stroke: #777777; !important
+  fill-opacity: .325; !important
+  shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move;
+}
+
+.axis,
+.frame {
+  shape-rendering: crispEdges;
+}
+
+.axisM line {
+  stroke: #ddd;
+}
+
+.axisM path {
+  display: none;
+}
+
+.axisS line {
+  stroke: #ddd;
+}
+
+.axisS path {
+  display: none;
+}
+
+.axisS text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move;
+    font: 10px sans-serif;
+}
+
+.cell text {
+  fill: #000;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.frame {
+  fill: none;
+  stroke: #aaa;
+}
+
+circle.hidden {
+  fill: #ccc !important;
+}
+
+.likert li {
+    float: left;
+    list-style-type: none;
+}
+
+th { white-space:pre }
+td { white-space:pre }
+
+table.striped-columns tbody td:nth-of-type(even),
+table.striped-columns th:nth-of-type(even){
+	background: rgb(235, 227, 209);
+}
+
+table.border {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table.border td,
+table.border th {
+    border: 1px solid grey;
+    padding: 3px;
+}
+
+.fixed-pin{
+  color:red
+}
+

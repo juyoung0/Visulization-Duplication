@@ -1,0 +1,510 @@
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS-->
+ <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
+  <!-- Custom CSS-->
+    <link href="static/css/sequence.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="navbar-collapse collapse inverse" id="navbar-header">
+    <div class="container-fluid">
+      <div class="about">
+        <h4>About</h4>
+        <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+      </div>
+      <div class="social">
+        <h4>Contact</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">Follow on Twitter</a></li>
+          <li><a href="#">Like on Facebook</a></li>
+          <li><a href="#">Email me</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-static-top navbar-dark bg-inverse">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">Sequence Analysis</a>
+        <div class="dropdown">
+          <button class="dropbtn">Problems</button>
+          <div class="dropdown-content" id="menu">
+            <a href="#" id="p1">Problem1</a>
+            <a href="#" id="p2">Problem2</a>
+            <a href="#" id="p3">Problem3</a>
+            <a href="#" id="p4">Problem4</a>
+            <a href="#" id="p5">Problem5</a>
+          </div>
+        </div>
+        <!--
+        <div class="dropdown">
+          <button class="dropbtn">Patterns</button>
+          <div class="dropdown-content" id="psMenu">
+            <a href="#" id="ps1">Problem1</a>
+            <a href="#" id="ps2">Problem2</a>
+            <a href="#" id="ps3">Problem3</a>
+            <a href="#" id="ps4">Problem4</a>
+            <a href="#" id="ps5">Problem5</a>
+          </div>
+        </div>
+        -->
+        <div class="dropdown">
+          <button class="dropbtn">Patterns_a</button>
+          <div class="dropdown-content" id="paMenu">
+            <a href="#" id="pa1_t">Problem1_True</a>
+            <a href="#" id="pa2_t">Problem2_True</a>
+            <a href="#" id="pa3_t">Problem3_True</a>
+            <a href="#" id="pa4_t">Problem4_True</a>
+            <a href="#" id="pa5_t">Problem5_True</a>
+            <a href="#" id="pa1_f">Problem1_False</a>
+            <a href="#" id="pa2_f">Problem2_False</a>
+            <a href="#" id="pa3_f">Problem3_False</a>
+            <a href="#" id="pa4_f">Problem4_False</a>
+            <a href="#" id="pa5_f">Problem5_False</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Patterns_a_30</button>
+          <div class="dropdown-content" id="paMenu30">
+            <a href="#" id="pa1_t30">Problem1_True</a>
+            <a href="#" id="pa2_t30">Problem2_True</a>
+            <a href="#" id="pa3_t30">Problem3_True</a>
+            <a href="#" id="pa4_t30">Problem4_True</a>
+            <a href="#" id="pa5_t30">Problem5_True</a>
+            <a href="#" id="pa1_f30">Problem1_False</a>
+            <a href="#" id="pa2_f30">Problem2_False</a>
+            <a href="#" id="pa3_f30">Problem3_False</a>
+            <a href="#" id="pa4_f30">Problem4_False</a>
+            <a href="#" id="pa5_f30">Problem5_False</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Patterns_a54</button>
+          <div class="dropdown-content" id="paMenu54">
+            <a href="#" id="pa1_t54">Problem1_True</a>
+            <a href="#" id="pa2_t54">Problem2_True</a>
+            <a href="#" id="pa3_t54">Problem3_True</a>
+            <a href="#" id="pa4_t54">Problem4_True</a>
+            <a href="#" id="pa5_t54">Problem5_True</a>
+            <a href="#" id="pa1_f54">Problem1_False</a>
+            <a href="#" id="pa2_f54">Problem2_False</a>
+            <a href="#" id="pa3_f54">Problem3_False</a>
+            <a href="#" id="pa4_f54">Problem4_False</a>
+            <a href="#" id="pa5_f54">Problem5_False</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Patterns_a_new_log</button>
+          <div class="dropdown-content" id="paMenuNew">
+            <a href="#" id="pa1_new">Problem1</a>
+            <a href="#" id="pa2_new">Problem2</a>
+            <a href="#" id="pa3_new">Problem3</a>
+            <a href="#" id="pa4_new">Problem4</a>
+            <a href="#" id="pa5_new">Problem5</a>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+<div id="sidebox"> <span id="span_problem" class="label label-default" style="font-size: 200%;"> Problem1 </span>
+    <span class="label label-default" style="font-size: 150%;"> Legend </span>
+  <div id="c10"></div> </div>
+
+  <div class="album text-muted">
+    <div class="container">
+
+      <div class="row">
+
+      </div>
+
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  <script>
+
+      var currentPosition = parseInt($("#sidebox").css("top"));
+      $(window).scroll(function()
+      {
+          var position = $(window).scrollTop();
+          $("#sidebox").stop().animate({"top":position+currentPosition+"px"},1000);
+      });
+
+      var c10 = d3.scale.category10();
+
+      var svg1 = d3.select("#c10")
+          .append("svg")
+          .attr("width", 220)
+          .attr("height", 400);
+
+      svg1.selectAll("circle")
+    .data( d3.range(10) )
+    .enter()
+    .append("circle")
+    .attr("r", 18 )
+    .attr("cx", 25 )
+    .attr("cy", d3.scale.linear().domain([-1, 10]).range([0, 400]))
+    .attr("fill", function (f) {
+        return c10(f);
+    } );
+
+      svg1.selectAll("text")
+    .data( d3.range(10) )
+          .enter()
+          .append("text")
+          .attr("fill", "black")
+          .attr("x",function (f) {
+                                return 55;
+                            })
+          .attr("y", function (f) {
+                                return (f + 1) * 37;
+                            })
+          .text(function (f) {
+                if (f == 0) {
+                    return "Reconfigure";
+                } else  if (f == 1) {
+                    return "Abstract/Elaborate";
+                } else  if (f == 2) {
+                    return "Filter";
+                } else  if (f == 3) {
+                    return "Connect";
+                } else  if (f == 4) {
+                    return "Retrieve";
+                } else  if (f == 5) {
+                    return "Annotation";
+                } else  if (f == 6) {
+                    return "History";
+                } else  if (f == 7) {
+                    return "DVC";
+                } else  if (f == 8) {
+                    return "Create";
+                }
+          });
+$(document).ready(function () {
+        var tip = d3.tip()
+      .attr('class', 'd3-tip')
+      .offset([-10, 0])
+            .html(function(d) {
+        return "<strong>Action:</strong> <span style='color:red'>" + d.action + "</span>";
+        });
+         var tip1 = d3.tip()
+      .attr('class', 'd3-tip')
+      .offset([-10, 0])
+            .html(function(d) {
+            return "<strong>Action:</strong> <span style='color:red'>" + d + "</span>";
+        });
+
+
+      function createElement(elem) {
+            $(".row").children("div").remove();
+            d3.json("../genovis/static/json/pro_final" + elem.id[1] + ".json", function(error, data) {
+                data.forEach(function(d){
+                    $(".row").append('<div class="card" id="card' + d["username"] + '"' + '><span class="label label-default">' + "total : " + d["username"] + " " + d["project_name"] + " " + d["session_name"] + " " + d["session_ver"] + '</span>' + '<span class="label label-default">' + " time : " + d['time'] + '</span>' + '<span class="label label-default">' + "  max length : " + d["max_length"] + '</span></div>');
+                    var svgContainer = d3.select("#card" + d["username"]).append("svg")
+                                     .attr("width", "100%")
+                                     .attr("height", "12px");
+                    svgContainer.call(tip);
+                    var rHeight = 0, i = 0, h = 1, w = 1;
+                    svgContainer.selectAll("rect")
+                        .data(d["action_list"])
+                        .enter().append("rect")
+                        .attr("y", function (f) {
+                                if (f['idx'] == 0) {
+                                    rHeight = 0;
+                                }
+                                if (f['idx'] * 8 > parseInt(svgContainer.style("width").replace("px", "")) * h - 8) {
+                                    rHeight += 12;
+                                    h += 1;
+                                    d3.select("#card" + d["username"]).attr("height", rHeight + 12 + "px");
+                                    svgContainer.attr("height", rHeight + 12 + "px");
+                                }
+                                return rHeight;
+                            })
+                        .attr("x", function (f) {
+                                if (f['idx'] * 8 > parseInt(svgContainer.style("width").replace("px", "")) * w - 8) {
+                                    w++;
+                                }
+                            return f['idx'] * 8 - parseInt(svgContainer.style("width").replace("px", "")) * (w - 1);
+                            })
+                        .attr("width", 8)
+                        .attr("height", 12)
+                        .style("fill", function(f) {
+                            return c10(f['num']);
+                        })
+                        .style("stroke", function (f) {
+                            if (f['num'] == 7) {
+                                return "white";
+                            } else {
+                                return "white";
+                            }
+                        })
+                        .on('mouseover', tip.show)
+                        .on('mouseout', tip.hide);
+
+                    if (rHeight == 0) {
+                        rHeight = 10;
+                    }
+
+                    d["unit_list"].forEach(function (unit) {
+                        $("#card" + d["username"]).append('<span class="label label-default">' + "unit : " + unit["block_name"] + " " + unit["block_ver"] + '</span>');
+                         var unitSvgContainer = d3.select("#card" + d["username"]).append("svg")
+                                     .attr("width", "100%")
+                                     .attr("height", "100%")
+                                    .attr("class", "svg");
+                         var unitHeight = 0, j = 0;
+                        unitSvgContainer.selectAll("rect")
+                        .data(unit["unit_action_list"])
+                        .enter().append("rect")
+                        .attr("y", function () {
+                                if (j * 8 > parseInt(svgContainer.style("width").replace("px", ""))) {
+                                    j = 0;
+                                    unitHeight = unitHeight + 12;
+                                }
+                                return unitHeight;
+                            })
+                        .attr("x", function () {
+                                j++;
+                                return j * 8;
+                            })
+                        .attr("width", 8)
+                        .attr("height", 12)
+                        .style("fill", function(f) {
+                            return c10(f['num']);
+                        })
+                        .style("stroke", "white")
+                        .on('mouseover', tip.show)
+                        .on('mouseout', tip.hide);
+
+                        if (unitHeight == 0) {
+                            unitHeight = 10;
+                        }
+                        unitSvgContainer.attr("height", unitHeight + "px");
+                    });
+
+                    if (d["acc"] == "1") {
+                        $("#card" + d["username"]).css({"border":"1.5px solid green"});
+                    } else {
+                        $("#card" + d["username"]).css({"border":"1.5px solid red"});
+                    }
+
+                    $(".label").css({"margin-bottom":"10px"});
+                    $(".label").css({"margin-right":"5px"});
+                    $(".svg").css({"margin-bottom":"10px"});
+                    var svgStat = d3.select("#card" + d["username"]).append("svg")
+                                     .attr("width", "100%")
+                                     .attr("height", "36px");
+
+                        svgStat.selectAll("circle")
+                        .data( d3.range(10) )
+                        .enter()
+                        .append("circle")
+                        .attr("r", 9 )
+                        .attr("cx", d3.scale.linear().domain([-1, 10]).range([0, 1000]) )
+                        .attr("cy", 25)
+                        .attr("fill", function (f) {
+                            return c10(f);
+                        } );
+                        var stat_num = 0;
+                        svgStat.selectAll("text")
+                            .data( d['stat'])
+                                  .enter()
+                                  .append("text")
+                                  .attr("fill", "black")
+                                  .attr("x",function () {
+                                                        stat_num++;
+                                                        return stat_num * 90 + 30;
+                                                    })
+                                  .attr("y", function () {
+                                                        return 30;
+                                                    })
+                                  .text(function (f) {
+                                      return f;
+                                  });
+                });
+
+            });
+
+        }
+        function createFreq(elem, type) {
+            $(".row").children("div").remove();
+            var file_path = "";
+            if (type == "pattern") {
+                file_path = "../genovis/static/json/pro_decode_smpf" + elem.id[2] + ".json";
+            } else {
+                var tf = ""
+                if(elem.id[4] == "t") {
+                    tf = "true"
+                } else {
+                  tf = "false"
+                }
+                if (elem.id[5] === undefined) {
+                    file_path = "../genovis/static/json/pro_smpf_" + tf + elem.id[2] + "_decoded_output_a.json";
+                }
+                file_path = "../genovis/static/json/pro_smpf_" + tf + elem.id[2] + "_decoded_output_a.json";
+                if (elem.id[5] == "3" && elem.id[6] == "0") {
+                    file_path = "../genovis/static/json/pro_smpf_" + tf + elem.id[2] + "_decoded_output30_a.json";
+                }
+
+            }
+            d3.json(file_path, function(error, data) {
+                data.forEach(function(d){
+
+                    var percent = "";
+                    if (tf == "true")
+                        percent = "1";
+                    else
+                        percent = "0";
+                    $(".row").append('<div class="card" id="card' + d["id"] + '"' + '><span class="label label-default">' + " Id : " + d["id"] + '</span>' + '<span class="label label-default">' + " frequency " + d["support"] + '</span> <span class="label label-default">' + " acc : " + percent + '</span><br /></div>');
+                    var username = ""
+                    var num = 0, is_in = false;
+                    d["user_ids"].forEach(function (f) {
+                        if (num == 42) {
+                            $("#card" + d["id"]).append('<span class="label label-default">' + " usernames : " + username + '</span>');
+                            username = ""
+                            num = 0
+                            is_in = true;
+                        }
+                        num += 1
+                        username += " " + f;
+                    });
+                    if (is_in == false) {
+                        $("#card" + d["id"]).append('<span class="label label-default">' + " usernames : " + username + '</span>');
+                    } else {
+                        $("#card" + d["id"]).append('<span class="label label-default">' + "  " + username + '</span>');
+                    }
+
+                    $("#card" + d["id"]).append('<br /><span class="label label-default">' + " A : " + d['group']['A'].length + ", B : " + d['group']['B'].length + ", BA : " + d['group']['BA'].length + '</span>');
+
+                    var i = 0;
+                    var svgContainer = d3.select("#card" + d["id"]).append("svg")
+                                     .attr("width", "100%")
+                                     .attr("height", "100%");
+                    svgContainer.call(tip1);
+                    var rHeight = 0, i = 0;
+                    console.log(d["pattern"]);
+                    svgContainer.selectAll("rect")
+                        .data(d["pattern"])
+                        .enter().append("rect")
+                        .attr("y", function () {
+                                if (i * 8 > parseInt(svgContainer.style("width").replace("px", ""))) {
+                                    i = 0;
+                                    rHeight = rHeight + 12;
+                                }
+                                return rHeight;
+                            })
+                        .attr("x", function () {
+                                i++;
+                                return i * 8;
+                            })
+                        .attr("width", 8)
+                        .attr("height", 12)
+                        .style("fill", function(f) {
+                            console.log(f);
+                            num = 0;
+                            if (f == "Reconfigure") {
+                                num = 0;
+                            } else  if (f == "Abstract/Elaborate") {
+                                num = 1;
+                            } else  if (f == "Filter") {
+                                num = 2;
+                            } else  if (f == "Connect") {
+                                num = 3;
+                            } else  if (f == "Retrieve") {
+                                num = 4;
+                            } else  if (f == "Annotation") {
+                                num = 5;
+                            } else  if (f == "History") {
+                                num = 6;
+                            } else  if (f == "DVC") {
+                                num = 7;
+                            } else  if (f == "Create") {
+                                num = 8;
+                            }
+                            return c10(num);
+                        })
+                        .style("stroke", "white")
+                        .on('mouseover', tip1.show)
+                        .on('mouseout', tip1.hide);
+
+                    if (rHeight == 0) {
+                        rHeight = 10;
+                    }
+                    d3.select("#card" + d["username"]).attr("height", rHeight + "px");
+                    svgContainer.attr("height", rHeight + "px");
+                    $(".label").css({"margin-bottom":"10px"});
+                    $(".svg").css({"margin-bottom":"10px"});
+                    $(".label").css({"margin-right":"5px"});
+
+                });
+
+            });
+
+        }
+        dict = {}
+        dict["id"] = "01"
+        createElement(dict);
+        $("#menu").find('a').each(function () {
+            $(this).click(function () {
+                $("#span_problem").html("Problem" + this.id[1]);
+                createElement(this);
+            });
+        });
+        $("#paMenu").find('a').each(function () {
+            $(this).click(function () {
+                $("#span_problem").html("Problem" + this.id[2]);
+                var type = "pattern_a"
+                createFreq(this, type);
+
+            });
+        });
+        $("#psMenu").find('a').each(function () {
+            $(this).click(function () {
+                $("#span_problem").html("Problem" + this.id[2]);
+                var type = "pattern"
+                createFreq(this, type);
+
+            });
+        });
+         $("#paMenu54").find('a').each(function () {
+            $(this).click(function () {
+                $("#span_problem").html("Problem" + this.id[2]);
+                var type = "pattern_a"
+                createFreq(this, type);
+
+            });
+        });
+
+        $("#paMenuNew").find('a').each(function () {
+            $(this).click(function () {
+                $("#span_problem").html("Problem" + this.id[2]);
+                var type = "pattern_a"
+                createFreq(this, type);
+
+            });
+        });
+
+        $("#paMenu30").find('a').each(function () {
+            $(this).click(function () {
+                $("#span_problem").html("Problem" + this.id[2]);
+                var type = "pattern_a"
+                createFreq(this, type);
+
+            });
+        });
+});
+  </script>
+
+</body>
+
+</html>

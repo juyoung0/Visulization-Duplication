@@ -1,0 +1,18 @@
+#formWrap { padding:10px; text-align:right; background-color:#000; background:rgba(82,82,82,0.7); border-radius:8px; font:bold 14px "lucida grande",tahoma,verdana,arial,sans-serif; }
+#formWrap a:hover { color:#ff0000; }
+#messageForm { width:467px; border:1px solid #666; background-color:#eee; }
+#messageForm fieldset { padding:0; margin:0; position:relative; border:none #CCC; background-color:#fff; }
+#messageForm legend { visibility:hidden; height:0; }
+#messageForm span { display:block; width:467px; padding:10px 0; background-color:#6D84B4; border:#3B5998 #3B5998; color:#fff; text-indent:20px; }
+.inner-form { padding:20px; }
+#toList { width:349px; min-height:27px; padding:3px 3px 0 3px; border:1px solid #6D84B4; margin-bottom:8px; float:left; background-color:#fff; cursor:text; }
+#messageForm #to { width:10px; padding:0; position:relative; top:4px; float:left; border:none; }
+#messageForm input, #messageForm textarea { display:block; width:349px; padding:3px; border:1px solid #6D84B4; float:left; outline:none; }
+#messageForm textarea { resize:vertical; }
+#messageForm label { width:60px; margin:7px 10px 0 0; float:left; color:#666; font-size:11px; text-align:right; }
+.buttons { padding:10px 20px; background-color:#f2f2f2; }
+.buttons a { margin:3px 10px 0 0; float:right; font-size:11px; color:#6D84B4; }
+.buttons button { float:right; }
+#toList span { width:auto; margin:0 3px 3px 0; padding:3px 20px 4px 8px; border:1px solid #9DACCC; border-radius:3px; position:relative; float:left; font-size:11px; font-weight:normal; text-indent:0; background-color:#E2E6F0; color:#1C2A47; }
+#toList span a { position:absolute; right:7px; top:1px; color:#666; font-weight:bold; font-size:12px; text-decoration:none; }
+.ui-menu .ui-menu-item { white-space:nowrap; padding:0 10px 0 0; }

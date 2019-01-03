@@ -1,0 +1,2926 @@
+{
+   "output":[
+      {
+         "action_list":[
+            {
+               "action_id":260864,
+               "parameter":{
+                  "block_name":"1",
+                  "block_ver":0,
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0
+               },
+               "action":"Create-Unit",
+               "date":"2017-03-29 20:45:46"
+            },
+            {
+               "action_id":260877,
+               "parameter":{
+                  "block_name":"1",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":997,
+                     "position_height":51,
+                     "position_top":25,
+                     "position_left":55
+                  },
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:45:51"
+            },
+            {
+               "action_id":260886,
+               "parameter":{
+                  "block_name":"1",
+                  "block_ver":0,
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0
+               },
+               "action":"Save-Unit",
+               "date":"2017-03-29 20:46:02"
+            },
+            {
+               "action_id":260890,
+               "parameter":{
+                  "block_name":"1",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":997,
+                     "position_height":585,
+                     "position_top":380,
+                     "position_left":665
+                  },
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:46:05"
+            },
+            {
+               "action_id":260896,
+               "parameter":{
+                  "block_name":"1",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":994,
+                     "position_height":584,
+                     "position_top":100,
+                     "position_left":92
+                  },
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:46:07"
+            },
+            {
+               "action_id":260905,
+               "parameter":{
+                  "block_name":"1",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0,
+                  "selected_index":"[114,115,116,117,118,119,120,122,127]",
+                  "block_ver":0,
+                  "brushed_range":"[[129.3427276611328,140.1748809814453],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,121.36463165283203]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:46:35"
+            },
+            {
+               "action_id":260908,
+               "parameter":{
+                  "block_name":"1",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0,
+                  "selected_index":"[114,115,116,117,118,119,120,122,127]",
+                  "block_ver":0,
+                  "brushed_range":"[[129.3427276611328,140.1748809814453],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,121.36463165283203]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:46:38"
+            },
+            {
+               "action_id":260910,
+               "parameter":{
+                  "block_name":"1",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0,
+                  "selected_index":"[114,115,116,117,118,119,120,122,127]",
+                  "block_ver":0,
+                  "brushed_range":"[[129.3427276611328,140.1748809814453],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,121.36463165283203]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:46:39"
+            },
+            {
+               "action_id":260912,
+               "parameter":{
+
+               },
+               "action":"Unit-Workflow",
+               "date":"2017-03-29 20:46:52"
+            },
+            {
+               "action_id":260974,
+               "parameter":{
+                  "block_name":"1",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":984,
+                     "position_height":591,
+                     "position_top":9,
+                     "position_left":15
+                  },
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:47:32"
+            },
+            {
+               "action_id":260978,
+               "parameter":{
+                  "block_name":"1",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0,
+                  "selected_index":"[114,115,116,117,118,119,120,122,127]",
+                  "block_ver":0,
+                  "brushed_range":"[[129.3427276611328,140.1748809814453],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,121.36463165283203]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:47:45"
+            },
+            {
+               "action_id":261469,
+               "parameter":{
+                  "block_name":"1",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0,
+                  "selected_index":"[114,115,116,117,118,119,120,122,127]",
+                  "block_ver":0,
+                  "brushed_range":"[[129.3427276611328,140.1748809814453],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,121.36463165283203]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:49:53"
+            },
+            {
+               "action_id":261488,
+               "parameter":{
+                  "block_name":"1",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":984,
+                     "position_height":591,
+                     "position_top":9,
+                     "position_left":15
+                  },
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:50:03"
+            },
+            {
+               "action_id":261490,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:50:03"
+            },
+            {
+               "action_id":261491,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:04"
+            },
+            {
+               "action_id":261492,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:04"
+            },
+            {
+               "action_id":261493,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:05"
+            },
+            {
+               "action_id":261494,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:05"
+            },
+            {
+               "action_id":261495,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:05"
+            },
+            {
+               "action_id":261496,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:05"
+            },
+            {
+               "action_id":261497,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:05"
+            },
+            {
+               "action_id":261498,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:06"
+            },
+            {
+               "action_id":261499,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:06"
+            },
+            {
+               "action_id":261500,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:06"
+            },
+            {
+               "action_id":261501,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:06"
+            },
+            {
+               "action_id":261502,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:06"
+            },
+            {
+               "action_id":261503,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:06"
+            },
+            {
+               "action_id":261504,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:06"
+            },
+            {
+               "action_id":261508,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:09"
+            },
+            {
+               "action_id":261509,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:09"
+            },
+            {
+               "action_id":261510,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:09"
+            },
+            {
+               "action_id":261511,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:09"
+            },
+            {
+               "action_id":261512,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:10"
+            },
+            {
+               "action_id":261513,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:10"
+            },
+            {
+               "action_id":261514,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:11"
+            },
+            {
+               "action_id":261515,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:12"
+            },
+            {
+               "action_id":261516,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:12"
+            },
+            {
+               "action_id":261517,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:12"
+            },
+            {
+               "action_id":261560,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:51:01"
+            },
+            {
+               "action_id":261561,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:02"
+            },
+            {
+               "action_id":261562,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:02"
+            },
+            {
+               "action_id":261563,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:02"
+            },
+            {
+               "action_id":261564,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:02"
+            },
+            {
+               "action_id":261565,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:02"
+            },
+            {
+               "action_id":261569,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:03"
+            },
+            {
+               "action_id":261572,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:04"
+            },
+            {
+               "action_id":261573,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:04"
+            },
+            {
+               "action_id":261574,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:04"
+            },
+            {
+               "action_id":261575,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:04"
+            },
+            {
+               "action_id":261578,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:04"
+            },
+            {
+               "action_id":261582,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:06"
+            },
+            {
+               "action_id":261583,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:07"
+            },
+            {
+               "action_id":261584,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:08"
+            },
+            {
+               "action_id":261585,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:08"
+            },
+            {
+               "action_id":261586,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:08"
+            },
+            {
+               "action_id":261587,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:10"
+            },
+            {
+               "action_id":261588,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:11"
+            },
+            {
+               "action_id":261589,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:12"
+            },
+            {
+               "action_id":261590,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:12"
+            },
+            {
+               "action_id":261591,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:12"
+            },
+            {
+               "action_id":261592,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:12"
+            },
+            {
+               "action_id":261593,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:12"
+            },
+            {
+               "action_id":261594,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:12"
+            },
+            {
+               "action_id":261660,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:51:44"
+            },
+            {
+               "action_id":261661,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:45"
+            },
+            {
+               "action_id":261662,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:47"
+            },
+            {
+               "action_id":261663,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:51:49"
+            },
+            {
+               "action_id":261664,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:49"
+            },
+            {
+               "action_id":261665,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:52"
+            },
+            {
+               "action_id":261666,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:52"
+            },
+            {
+               "action_id":261667,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:52"
+            },
+            {
+               "action_id":261668,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:52"
+            },
+            {
+               "action_id":261669,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:53"
+            },
+            {
+               "action_id":261670,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:53"
+            },
+            {
+               "action_id":261671,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:53"
+            },
+            {
+               "action_id":261674,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:53"
+            },
+            {
+               "action_id":261675,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:54"
+            },
+            {
+               "action_id":261676,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:56"
+            },
+            {
+               "action_id":261693,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:14"
+            },
+            {
+               "action_id":261694,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:14"
+            },
+            {
+               "action_id":261697,
+               "parameter":{
+
+               },
+               "action":"Create-Unit-Annotation",
+               "date":"2017-03-29 20:52:27"
+            },
+            {
+               "action_id":261710,
+               "parameter":{
+                  "block_name":"1",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":987,
+                     "position_height":592,
+                     "position_top":3,
+                     "position_left":15
+                  },
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:52:45"
+            },
+            {
+               "action_id":261815,
+               "parameter":{
+                  "block_name":"1",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":984,
+                     "position_height":591,
+                     "position_top":9,
+                     "position_left":15
+                  },
+                  "block_iden":"U-1490787950295",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:53:37"
+            },
+            {
+               "action_id":262067,
+               "parameter":{
+
+               },
+               "action":"Create-Unit-Annotation",
+               "date":"2017-03-29 20:54:02"
+            },
+            {
+               "action_id":264279,
+               "parameter":{
+
+               },
+               "action":"Unit-Workflow",
+               "date":"2017-03-30 02:09:13"
+            }
+         ],
+         "annotation_path":"static/member/B47/experiment/problem 4/0/U-1490787950295/annotation.json",
+         "session_name":"problem 4",
+         "block_iden":"U-1490787950295",
+         "block_ver":0,
+         "pcp_path":"static/member/B47/experiment/problem 4/0/U-1490787950295/0/pcp.json",
+         "session_ver":0,
+         "username":"B47",
+         "project_name":"experiment",
+         "vis_types":"Parallel Coordinate Plot"
+      },
+      {
+         "action_list":[
+            {
+               "action_id":260922,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "block_ver":0,
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0
+               },
+               "action":"Create-Unit",
+               "date":"2017-03-29 20:47:04"
+            },
+            {
+               "action_id":260923,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":997,
+                     "position_height":51,
+                     "position_top":25,
+                     "position_left":55
+                  },
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:47:04"
+            },
+            {
+               "action_id":260924,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "block_ver":0,
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0
+               },
+               "action":"Save-Unit",
+               "date":"2017-03-29 20:47:04"
+            },
+            {
+               "action_id":260927,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0,
+                  "selected_index":"[265]",
+                  "block_ver":0,
+                  "brushed_range":"[[267.6994323730469,282.3994445800781],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,123.84945678710938]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:47:04"
+            },
+            {
+               "action_id":260928,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0,
+                  "selected_index":"[265]",
+                  "block_ver":0,
+                  "brushed_range":"[[267.6994323730469,282.3994445800781],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,123.84945678710938]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:47:04"
+            },
+            {
+               "action_id":260929,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0,
+                  "selected_index":"[265]",
+                  "block_ver":0,
+                  "brushed_range":"[[267.6994323730469,282.3994445800781],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,123.84945678710938]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:47:04"
+            },
+            {
+               "action_id":260931,
+               "parameter":{
+
+               },
+               "action":"Branch-Unit",
+               "date":"2017-03-29 20:47:03"
+            },
+            {
+               "action_id":260969,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":274,
+                     "position_height":212,
+                     "position_top":155,
+                     "position_left":1253
+                  },
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:47:30"
+            },
+            {
+               "action_id":260977,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":274,
+                     "position_height":212,
+                     "position_top":14,
+                     "position_left":1010
+                  },
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:47:34"
+            },
+            {
+               "action_id":260986,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":1017,
+                     "position_height":596,
+                     "position_top":4,
+                     "position_left":1010
+                  },
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:47:53"
+            },
+            {
+               "action_id":261204,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0,
+                  "selected_index":"[265]",
+                  "block_ver":0,
+                  "brushed_range":"[[267.6994323730469,282.3994445800781],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,123.84945678710938]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:03"
+            },
+            {
+               "action_id":261260,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0,
+                  "selected_index":"[265]",
+                  "block_ver":0,
+                  "brushed_range":"[[267.6994323730469,282.3994445800781],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,123.84945678710938]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:05"
+            },
+            {
+               "action_id":261273,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0,
+                  "selected_index":"[265]",
+                  "block_ver":0,
+                  "brushed_range":"[[267.6994323730469,282.3994445800781],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,123.84945678710938]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:05"
+            },
+            {
+               "action_id":261288,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0,
+                  "selected_index":"[265]",
+                  "block_ver":0,
+                  "brushed_range":"[[267.6994323730469,282.3994445800781],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,123.84945678710938]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:06"
+            },
+            {
+               "action_id":261354,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0,
+                  "selected_index":"[265]",
+                  "block_ver":0,
+                  "brushed_range":"[[267.6994323730469,282.3994445800781],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,123.84945678710938]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:14"
+            },
+            {
+               "action_id":261356,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0,
+                  "selected_index":"[265]",
+                  "block_ver":0,
+                  "brushed_range":"[[267.6994323730469,282.3994445800781],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,123.84945678710938]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:16"
+            },
+            {
+               "action_id":261473,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0,
+                  "selected_index":"[265]",
+                  "block_ver":0,
+                  "brushed_range":"[[267.6994323730469,282.3994445800781],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,123.84945678710938]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:49:55"
+            },
+            {
+               "action_id":261475,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0,
+                  "selected_index":"[265]",
+                  "block_ver":0,
+                  "brushed_range":"[[267.6994323730469,282.3994445800781],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,123.84945678710938]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:49:57"
+            },
+            {
+               "action_id":261519,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:50:26"
+            },
+            {
+               "action_id":261521,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:50:27"
+            },
+            {
+               "action_id":261522,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:28"
+            },
+            {
+               "action_id":261699,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:52:29"
+            },
+            {
+               "action_id":261700,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:52:32"
+            },
+            {
+               "action_id":261701,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:33"
+            },
+            {
+               "action_id":261702,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:33"
+            },
+            {
+               "action_id":261717,
+               "parameter":{
+
+               },
+               "action":"Create-Unit-Annotation",
+               "date":"2017-03-29 20:52:54"
+            },
+            {
+               "action_id":264291,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":1007,
+                     "position_height":604,
+                     "position_top":132,
+                     "position_left":856
+                  },
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-30 02:09:29"
+            },
+            {
+               "action_id":264294,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":1008,
+                     "position_height":605,
+                     "position_top":138,
+                     "position_left":627
+                  },
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-30 02:09:30"
+            },
+            {
+               "action_id":264297,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":1008,
+                     "position_height":605,
+                     "position_top":133,
+                     "position_left":774
+                  },
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-30 02:09:32"
+            },
+            {
+               "action_id":264300,
+               "parameter":{
+                  "block_name":"1-B#21",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":1008,
+                     "position_height":605,
+                     "position_top":224,
+                     "position_left":788
+                  },
+                  "block_iden":"U-1490788027089",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-30 02:09:33"
+            }
+         ],
+         "annotation_path":"static/member/B47/experiment/problem 4/0/U-1490788027089/annotation.json",
+         "session_name":"problem 4",
+         "block_iden":"U-1490788027089",
+         "block_ver":0,
+         "pcp_path":"static/member/B47/experiment/problem 4/0/U-1490788027089/0/pcp.json",
+         "session_ver":0,
+         "username":"B47",
+         "project_name":"experiment",
+         "vis_types":"Parallel Coordinate Plot"
+      },
+      {
+         "action_list":[
+            {
+               "action_id":260935,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "block_ver":0,
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0
+               },
+               "action":"Create-Unit",
+               "date":"2017-03-29 20:47:08"
+            },
+            {
+               "action_id":260936,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":997,
+                     "position_height":51,
+                     "position_top":25,
+                     "position_left":55
+                  },
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:47:08"
+            },
+            {
+               "action_id":260937,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "block_ver":0,
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0
+               },
+               "action":"Save-Unit",
+               "date":"2017-03-29 20:47:08"
+            },
+            {
+               "action_id":260938,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0,
+                  "selected_index":"[228,229,230,231,232,237,238,239,241,242,243,244,245,247,250]",
+                  "block_ver":0,
+                  "brushed_range":"[[208.72666931152344,235.7979736328125],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-8.580689430236816,122.44441986083984]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:47:08"
+            },
+            {
+               "action_id":260939,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0,
+                  "selected_index":"[228,229,230,231,232,237,238,239,241,242,243,244,245,247,250]",
+                  "block_ver":0,
+                  "brushed_range":"[[208.72666931152344,235.7979736328125],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-8.580689430236816,122.44441986083984]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:47:08"
+            },
+            {
+               "action_id":260940,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0,
+                  "selected_index":"[228,229,230,231,232,237,238,239,241,242,243,244,245,247,250]",
+                  "block_ver":0,
+                  "brushed_range":"[[208.72666931152344,235.7979736328125],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-8.580689430236816,122.44441986083984]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:47:08"
+            },
+            {
+               "action_id":260942,
+               "parameter":{
+
+               },
+               "action":"Branch-Unit",
+               "date":"2017-03-29 20:47:07"
+            },
+            {
+               "action_id":260945,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":277,
+                     "position_height":213,
+                     "position_top":655,
+                     "position_left":22
+                  },
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:47:09"
+            },
+            {
+               "action_id":260955,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0,
+                  "selected_index":"[228,229,230,231,232,237,238,239,241,242,243,244,245,247,250]",
+                  "block_ver":0,
+                  "brushed_range":"[[208.72666931152344,235.7979736328125],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-8.580689430236816,122.44441986083984]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:47:18"
+            },
+            {
+               "action_id":260961,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0,
+                  "selected_index":"[228,229,230,231,232,237,238,239,241,242,243,244,245,247,250]",
+                  "block_ver":0,
+                  "brushed_range":"[[208.72666931152344,235.7979736328125],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-8.580689430236816,122.44441986083984]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:47:20"
+            },
+            {
+               "action_id":260966,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":1008,
+                     "position_height":591,
+                     "position_top":723,
+                     "position_left":39
+                  },
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:47:29"
+            },
+            {
+               "action_id":260980,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0,
+                  "selected_index":"[228,229,230,231,232,237,238,239,241,242,243,244,245,247,250]",
+                  "block_ver":0,
+                  "brushed_range":"[[208.72666931152344,235.7979736328125],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-8.580689430236816,122.44441986083984]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:47:47"
+            },
+            {
+               "action_id":260983,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":1005,
+                     "position_height":590,
+                     "position_top":617,
+                     "position_left":15
+                  },
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:47:49"
+            },
+            {
+               "action_id":261353,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0,
+                  "selected_index":"[228,229,230,231,232,237,238,239,241,242,243,244,245,247,250]",
+                  "block_ver":0,
+                  "brushed_range":"[[208.72666931152344,235.7979736328125],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-8.580689430236816,122.44441986083984]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:10"
+            },
+            {
+               "action_id":261414,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":984,
+                     "position_height":579,
+                     "position_top":611,
+                     "position_left":15
+                  },
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:48:55"
+            },
+            {
+               "action_id":261450,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:49:37"
+            },
+            {
+               "action_id":261451,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:49:39"
+            },
+            {
+               "action_id":261452,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:39"
+            },
+            {
+               "action_id":261453,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:39"
+            },
+            {
+               "action_id":261454,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:39"
+            },
+            {
+               "action_id":261455,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:39"
+            },
+            {
+               "action_id":261460,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:47"
+            },
+            {
+               "action_id":261461,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:47"
+            },
+            {
+               "action_id":261462,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0,
+                  "selected_index":"[228,229,230,231,232,237,238,239,241,242,243,244,245,247,250]",
+                  "block_ver":0,
+                  "brushed_range":"[[208.72666931152344,235.7979736328125],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-8.580689430236816,122.44441986083984]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:49:49"
+            },
+            {
+               "action_id":261463,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:49"
+            },
+            {
+               "action_id":261466,
+               "parameter":{
+                  "block_name":"1-B#21-B#31",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788030436",
+                  "save_ver":0,
+                  "selected_index":"[228,229,230,231,232,237,238,239,241,242,243,244,245,247,250]",
+                  "block_ver":0,
+                  "brushed_range":"[[208.72666931152344,235.7979736328125],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-8.580689430236816,122.44441986083984]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:49:50"
+            },
+            {
+               "action_id":261483,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:00"
+            },
+            {
+               "action_id":261484,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:00"
+            },
+            {
+               "action_id":261485,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:00"
+            },
+            {
+               "action_id":261486,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:01"
+            },
+            {
+               "action_id":261525,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:50:34"
+            },
+            {
+               "action_id":261526,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:35"
+            },
+            {
+               "action_id":261528,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:50:37"
+            },
+            {
+               "action_id":261529,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:38"
+            },
+            {
+               "action_id":261530,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:38"
+            },
+            {
+               "action_id":261531,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:38"
+            },
+            {
+               "action_id":261532,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:39"
+            },
+            {
+               "action_id":261533,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:39"
+            },
+            {
+               "action_id":261534,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:40"
+            },
+            {
+               "action_id":261535,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:43"
+            },
+            {
+               "action_id":261536,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:44"
+            },
+            {
+               "action_id":261537,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:44"
+            },
+            {
+               "action_id":261538,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:45"
+            },
+            {
+               "action_id":261539,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:48"
+            },
+            {
+               "action_id":261540,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:49"
+            },
+            {
+               "action_id":261541,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:49"
+            },
+            {
+               "action_id":261542,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:45"
+            },
+            {
+               "action_id":261543,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:50"
+            },
+            {
+               "action_id":261544,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:53"
+            },
+            {
+               "action_id":261545,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:53"
+            },
+            {
+               "action_id":261546,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:54"
+            },
+            {
+               "action_id":261547,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:54"
+            },
+            {
+               "action_id":261548,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:54"
+            },
+            {
+               "action_id":261549,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:56"
+            },
+            {
+               "action_id":261553,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:56"
+            },
+            {
+               "action_id":261554,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:56"
+            },
+            {
+               "action_id":261555,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:50:56"
+            },
+            {
+               "action_id":261619,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:51:29"
+            },
+            {
+               "action_id":261620,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:29"
+            },
+            {
+               "action_id":261621,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:29"
+            },
+            {
+               "action_id":261622,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:29"
+            },
+            {
+               "action_id":261623,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:30"
+            },
+            {
+               "action_id":261624,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:51:31"
+            },
+            {
+               "action_id":261625,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:31"
+            },
+            {
+               "action_id":261626,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:32"
+            },
+            {
+               "action_id":261627,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:32"
+            },
+            {
+               "action_id":261628,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:32"
+            },
+            {
+               "action_id":261629,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:32"
+            },
+            {
+               "action_id":261633,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:33"
+            },
+            {
+               "action_id":261634,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:33"
+            },
+            {
+               "action_id":261635,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:33"
+            },
+            {
+               "action_id":261636,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:33"
+            },
+            {
+               "action_id":261637,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:33"
+            },
+            {
+               "action_id":261638,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:34"
+            },
+            {
+               "action_id":261639,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:34"
+            },
+            {
+               "action_id":261640,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:34"
+            },
+            {
+               "action_id":261641,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:34"
+            },
+            {
+               "action_id":261642,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:35"
+            },
+            {
+               "action_id":261643,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:35"
+            },
+            {
+               "action_id":261644,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:35"
+            },
+            {
+               "action_id":261645,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:35"
+            },
+            {
+               "action_id":261646,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:35"
+            },
+            {
+               "action_id":261647,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:36"
+            },
+            {
+               "action_id":261657,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:34"
+            },
+            {
+               "action_id":261658,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:43"
+            },
+            {
+               "action_id":261719,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:52:55"
+            },
+            {
+               "action_id":261720,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:52:57"
+            },
+            {
+               "action_id":261721,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:57"
+            },
+            {
+               "action_id":261722,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:57"
+            },
+            {
+               "action_id":261723,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:57"
+            },
+            {
+               "action_id":261724,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:58"
+            },
+            {
+               "action_id":261725,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:58"
+            },
+            {
+               "action_id":261726,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:58"
+            },
+            {
+               "action_id":261727,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:59"
+            },
+            {
+               "action_id":261728,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:59"
+            },
+            {
+               "action_id":261729,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:59"
+            },
+            {
+               "action_id":261730,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:52:59"
+            },
+            {
+               "action_id":261731,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:00"
+            },
+            {
+               "action_id":261732,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:00"
+            },
+            {
+               "action_id":261733,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:00"
+            },
+            {
+               "action_id":261734,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:01"
+            },
+            {
+               "action_id":261735,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:01"
+            },
+            {
+               "action_id":261736,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:01"
+            },
+            {
+               "action_id":261737,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:01"
+            },
+            {
+               "action_id":261738,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:02"
+            },
+            {
+               "action_id":261739,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:03"
+            },
+            {
+               "action_id":261742,
+               "parameter":{
+
+               },
+               "action":"Create-Unit-Annotation",
+               "date":"2017-03-29 20:53:08"
+            },
+            {
+               "action_id":261831,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:52"
+            },
+            {
+               "action_id":262282,
+               "parameter":{
+
+               },
+               "action":"Session-Workflow",
+               "date":"2017-03-29 20:54:37"
+            },
+            {
+               "action_id":263021,
+               "parameter":{
+
+               },
+               "action":"Unit-Workflow",
+               "date":"2017-03-29 22:18:07"
+            }
+         ],
+         "annotation_path":"static/member/B47/experiment/problem 4/0/U-1490788030436/annotation.json",
+         "session_name":"problem 4",
+         "block_iden":"U-1490788030436",
+         "block_ver":0,
+         "pcp_path":"static/member/B47/experiment/problem 4/0/U-1490788030436/0/pcp.json",
+         "session_ver":0,
+         "username":"B47",
+         "project_name":"experiment",
+         "vis_types":"Parallel Coordinate Plot"
+      },
+      {
+         "action_list":[
+            {
+               "action_id":261361,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "block_ver":0,
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0
+               },
+               "action":"Create-Unit",
+               "date":"2017-03-29 20:48:24"
+            },
+            {
+               "action_id":261362,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":997,
+                     "position_height":51,
+                     "position_top":25,
+                     "position_left":55
+                  },
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:48:24"
+            },
+            {
+               "action_id":261363,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "block_ver":0,
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0
+               },
+               "action":"Save-Unit",
+               "date":"2017-03-29 20:48:24"
+            },
+            {
+               "action_id":261364,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0,
+                  "selected_index":"[347,349,352,357,360,361,362,364,370,373,374]",
+                  "block_ver":0,
+                  "brushed_range":"[[392.45819091796875,421.8629455566406],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,127.45543670654297]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:24"
+            },
+            {
+               "action_id":261365,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0,
+                  "selected_index":"[347,349,352,357,360,361,362,364,370,373,374]",
+                  "block_ver":0,
+                  "brushed_range":"[[392.45819091796875,421.8629455566406],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,127.45543670654297]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:24"
+            },
+            {
+               "action_id":261366,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0,
+                  "selected_index":"[347,349,352,357,360,361,362,364,370,373,374]",
+                  "block_ver":0,
+                  "brushed_range":"[[392.45819091796875,421.8629455566406],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,127.45543670654297]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:24"
+            },
+            {
+               "action_id":261369,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0,
+                  "selected_index":"[347,349,352,357,360,361,362,364,370,373,374]",
+                  "block_ver":0,
+                  "brushed_range":"[[392.45819091796875,421.8629455566406],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,127.45543670654297]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:24"
+            },
+            {
+               "action_id":261370,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0,
+                  "selected_index":"[347,349,352,357,360,361,362,364,370,373,374]",
+                  "block_ver":0,
+                  "brushed_range":"[[392.45819091796875,421.8629455566406],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,127.45543670654297]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:24"
+            },
+            {
+               "action_id":261372,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0,
+                  "selected_index":"[347,349,352,357,360,361,362,364,370,373,374]",
+                  "block_ver":0,
+                  "brushed_range":"[[392.45819091796875,421.8629455566406],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,127.45543670654297]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:24"
+            },
+            {
+               "action_id":261374,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0,
+                  "selected_index":"[347,349,352,357,360,361,362,364,370,373,374]",
+                  "block_ver":0,
+                  "brushed_range":"[[392.45819091796875,421.8629455566406],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,127.45543670654297]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:24"
+            },
+            {
+               "action_id":261375,
+               "parameter":{
+
+               },
+               "action":"Branch-Unit",
+               "date":"2017-03-29 20:48:23"
+            },
+            {
+               "action_id":261378,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":277,
+                     "position_height":213,
+                     "position_top":606,
+                     "position_left":1010
+                  },
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:48:26"
+            },
+            {
+               "action_id":261399,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0,
+                  "selected_index":"[347,349,352,357,360,361,362,364,370,373,374]",
+                  "block_ver":0,
+                  "brushed_range":"[[392.45819091796875,421.8629455566406],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,127.45543670654297]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:48:35"
+            },
+            {
+               "action_id":261411,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":993,
+                     "position_height":583,
+                     "position_top":606,
+                     "position_left":1010
+                  },
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-29 20:48:53"
+            },
+            {
+               "action_id":261432,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:49:13"
+            },
+            {
+               "action_id":261433,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:13"
+            },
+            {
+               "action_id":261434,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:15"
+            },
+            {
+               "action_id":261435,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:18"
+            },
+            {
+               "action_id":261436,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:19"
+            },
+            {
+               "action_id":261437,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:19"
+            },
+            {
+               "action_id":261438,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:21"
+            },
+            {
+               "action_id":261439,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:22"
+            },
+            {
+               "action_id":261440,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:22"
+            },
+            {
+               "action_id":261441,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:22"
+            },
+            {
+               "action_id":261442,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:22"
+            },
+            {
+               "action_id":261443,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:26"
+            },
+            {
+               "action_id":261444,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:27"
+            },
+            {
+               "action_id":261445,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:30"
+            },
+            {
+               "action_id":261446,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:49:30"
+            },
+            {
+               "action_id":261481,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "brushed_axis":"[1,0,0,0,0,0,0,1]",
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0,
+                  "selected_index":"[347,349,352,357,360,361,362,364,370,373,374]",
+                  "block_ver":0,
+                  "brushed_range":"[[392.45819091796875,421.8629455566406],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[-10,127.45543670654297]]"
+               },
+               "action":"Brush-PCP-Axis",
+               "date":"2017-03-29 20:49:59"
+            },
+            {
+               "action_id":261596,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:15"
+            },
+            {
+               "action_id":261597,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:15"
+            },
+            {
+               "action_id":261598,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:15"
+            },
+            {
+               "action_id":261599,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:15"
+            },
+            {
+               "action_id":261600,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:15"
+            },
+            {
+               "action_id":261601,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:15"
+            },
+            {
+               "action_id":261602,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:15"
+            },
+            {
+               "action_id":261603,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:15"
+            },
+            {
+               "action_id":261604,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:17"
+            },
+            {
+               "action_id":261605,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:17"
+            },
+            {
+               "action_id":261606,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:18"
+            },
+            {
+               "action_id":261607,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:18"
+            },
+            {
+               "action_id":261608,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:18"
+            },
+            {
+               "action_id":261609,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:18"
+            },
+            {
+               "action_id":261610,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:51:18"
+            },
+            {
+               "action_id":261744,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:53:10"
+            },
+            {
+               "action_id":261745,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:10"
+            },
+            {
+               "action_id":261746,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:10"
+            },
+            {
+               "action_id":261747,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:11"
+            },
+            {
+               "action_id":261748,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:11"
+            },
+            {
+               "action_id":261749,
+               "parameter":{
+
+               },
+               "action":"Search-Table",
+               "date":"2017-03-29 20:53:12"
+            },
+            {
+               "action_id":261750,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:12"
+            },
+            {
+               "action_id":261751,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:13"
+            },
+            {
+               "action_id":261752,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:13"
+            },
+            {
+               "action_id":261753,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:13"
+            },
+            {
+               "action_id":261756,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:13"
+            },
+            {
+               "action_id":261757,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:13"
+            },
+            {
+               "action_id":261758,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:14"
+            },
+            {
+               "action_id":261759,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:14"
+            },
+            {
+               "action_id":261760,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:15"
+            },
+            {
+               "action_id":261761,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:15"
+            },
+            {
+               "action_id":261762,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:15"
+            },
+            {
+               "action_id":261763,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:16"
+            },
+            {
+               "action_id":261765,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:16"
+            },
+            {
+               "action_id":261766,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:17"
+            },
+            {
+               "action_id":261767,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:17"
+            },
+            {
+               "action_id":261768,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:17"
+            },
+            {
+               "action_id":261769,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:18"
+            },
+            {
+               "action_id":261771,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:18"
+            },
+            {
+               "action_id":261783,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:20"
+            },
+            {
+               "action_id":261784,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:21"
+            },
+            {
+               "action_id":261785,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:21"
+            },
+            {
+               "action_id":261786,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:21"
+            },
+            {
+               "action_id":261787,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:21"
+            },
+            {
+               "action_id":261788,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:22"
+            },
+            {
+               "action_id":261789,
+               "parameter":{
+
+               },
+               "action":"Search-Table-Row",
+               "date":"2017-03-29 20:53:22"
+            },
+            {
+               "action_id":261810,
+               "parameter":{
+
+               },
+               "action":"Create-Unit-Annotation",
+               "date":"2017-03-29 20:53:30"
+            },
+            {
+               "action_id":264288,
+               "parameter":{
+                  "block_name":"1-B#21-B#31-B#41",
+                  "block_ver":0,
+                  "position":{
+                     "position_width":983,
+                     "position_height":591,
+                     "position_top":649,
+                     "position_left":721
+                  },
+                  "block_iden":"U-1490788106438",
+                  "save_ver":0
+               },
+               "action":"Locate-Unit",
+               "date":"2017-03-30 02:09:28"
+            }
+         ],
+         "annotation_path":"static/member/B47/experiment/problem 4/0/U-1490788106438/annotation.json",
+         "session_name":"problem 4",
+         "block_iden":"U-1490788106438",
+         "block_ver":0,
+         "pcp_path":"static/member/B47/experiment/problem 4/0/U-1490788106438/0/pcp.json",
+         "session_ver":0,
+         "username":"B47",
+         "project_name":"experiment",
+         "vis_types":"Parallel Coordinate Plot"
+      }
+   ],
+   "detail":"Get Unit information.",
+   "success":true
+}

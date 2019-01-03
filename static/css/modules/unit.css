@@ -1,0 +1,151 @@
+.border-rect:hover {
+    fill: #337ab7 !important;
+    fill-opacity: 0.2;
+    cursor: pointer;
+}
+
+.unit-badge {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 9px;
+}
+
+.rotate-label {
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg); /* Standard syntax */
+}
+
+.annotation-margin .badge {
+    margin-bottom: 3px;
+}
+
+.annotation-margin .form-control {
+    margin-bottom: 10px;
+}
+
+.annotation a {
+    padding: 2px 3px 3px 3px !important;
+    margin-left: 5px !important;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.annotation{
+    margin-top: -100px
+}
+
+.selected-block {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 3px solid rgb(4, 37, 47);
+}
+
+.fixed-block {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.scrollable {
+    overflow-y: scroll;
+}
+
+rect.bordered {
+    stroke: #E6E6E6;
+    stroke-width: 0px;
+}
+
+
+.block {
+    line-height: 34px;
+    float: left;
+    min-width: 10vw;
+    width: 10vw;
+}
+
+.block a:link {
+    text-decoration: none;
+}
+
+.panel-title {
+    line-height: 34px;
+}
+
+.node circle {
+    fill: #999;
+}
+
+/*.node text {*/
+    /*font: 10px sans-serif;*/
+/*}*/
+
+.node--internal circle {
+    fill: #555;
+}
+
+.node--internal text {
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+    fill: none;
+    stroke: #555;
+    stroke-opacity: 0.4;
+    stroke-width: 1.5px;
+}
+
+.link--active {
+    stroke: #000 !important;
+    stroke-width: 1.5px;
+}
+
+.link-extension--active {
+    stroke-opacity: .6;
+}
+
+.zoom-text{
+    font-size: 90px !important;
+    color: #e6b900;
+}
+.block-menu{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    padding-right: 5px;
+    position: relative;
+    top:auto;
+    bottom:6px;
+}
+.rowLabel g:hover{
+    cursor: pointer;
+}
+.selected-row{
+    fill: #1abc9c;
+}
+.tab-right{
+    right: 0px;
+    top: 0;
+    height: 100%;
+}
+.tabbable {
+    position: absolute;
+    font-size: 0.1px;
+    display: block;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+.bootstrap-select{
+    z-index: 0 !important;
+}
+.selected-row{
+    font-size: 60px;
+    font-weight: bolder;
+    fill: blue;
+    text-decoration: underline;
+}
+.hover-row{
+    fill: darkviolet;
+    opacity: 0.3;
+}

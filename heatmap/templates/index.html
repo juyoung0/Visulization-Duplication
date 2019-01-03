@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en" style="overflow-x:hidden;overflow-y:auto">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Gene View</title>
+    <meta name="author" content="SkyJin">
+    <!-- library dependency -->
+    <link href="static/js/jquery-ui/themes/base/jquery-ui.min.css" rel="stylesheet">
+    <link href="static/js/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/js/bootstrap-toggle/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link href="static/js/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <!--
+    <link href="static/js/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    -->
+    <link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet">
+    <!--
+    <link href="static/css/stylesheets/dropdown-submenu.css" rel="stylesheet">
+    -->
+    <link href="static/js/jasny-bootstrap/css/jasny-bootstrap.css" rel="stylesheet">
+    <link href="static/js/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="static/js/jquery-contextmenu/dist/jquery.contextMenu.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--<link href="static/js/bootstrap-submenu/dist/css/bootstrap-submenu.min.css" rel="stylesheet">-->
+    <!-- library dependency ends -->
+    <!-- modules css -->
+    <link href="static/css/modules/d3-context-menu.css" rel="stylesheet">
+    <link href="static/css/modules/d3-tip.css" rel="stylesheet">
+    <link href="static/css/modules/history.css" rel="stylesheet">
+    <link href="static/css/modules/modal.css" rel="stylesheet">
+    <link href="static/css/modules/pathway.css" rel="stylesheet">
+    <link href="static/css/modules/popup.css" rel="stylesheet">
+    <link href="static/css/modules/right-main.css" rel="stylesheet">
+    <link href="static/css/modules/select.css" rel="stylesheet">
+    <link href="static/css/modules/slide-menu.css" rel="stylesheet">
+    <link href="static/css/modules/statistics.css" rel="stylesheet">
+    <link href="static/css/modules/unit.css" rel="stylesheet">
+    <link href="static/css/modules/unit-history.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+    <!-- css modules end-->
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+
+</head>
+<body class="claro">
+<div>
+    <nav class="navmenu navmenu-inverse navmenu-fixed-left offcanvas-sm navmenu-icon" role="navigation"
+         style="display: block !important;">
+        <ul class="nav navmenu-nav">
+            <li class="hide">
+                <a href="#" class="navbar-toggle no-padding btn-toggle-slider1" data-toggle="offcanvas"
+                   data-target="#myNavmenu"
+                   data-canvas="body" data-autohide="false">
+                    <span class="material-icons">reorder</span>
+                </a>
+            </li>
+
+            <li style="margin-bottom: 70px;">
+                <a href="#" class="navbar-toggle no-padding btn-grid" title="Grid" style="color:chartreuse !important;">
+                    <span class="material-icons">view_module</span>
+                </a>
+            </li>
+            <!--
+            <li>
+                <a href="#" class="navbar-toggle no-padding btn-toggle-slider2" data-toggle="offcanvas"
+                   data-target="#tableView"
+                   data-canvas="body" data-autohide="false">
+                    <span class="material-icons">reorder</span>
+                </a>
+            </li>
+            -->
+            <li class="btn-slider slider-heatmap" id="menu_icon">
+                <a href="#" class="navbar-toggle no-padding btn-toggle-heatmap" data-toggle="tooltip" title="Management"
+                   data-placement="right">
+                    <i class="material-icons">dashboard</i>
+                </a>
+            </li>
+            <li class="btn-slider slider-history" id="history_icon">
+                <a href="#" class="navbar-toggle no-padding btn-toggle-history" data-toggle="tooltip" title="Workflow"
+                   data-placement="right">
+                    <i class="material-icons">watch_later</i>
+                </a>
+            </li>
+            <!--
+            <li class="btn-slider slider-folder" id="document_icon" >
+                <a href="#" class="navbar-toggle no-padding" data-toggle="tooltip" title="Algorithms" data-placement="right">
+                    <i class="glyphicon material-icons">folder</i>
+                </a>
+            </li>
+            -->
+            <li class="btn-slider slider-network" id="network_icon">
+                <a href="#" class="navbar-toggle no-padding" data-toggle="tooltip" title="GSEA" data-placement="right">
+                    <i class="glyphicon material-icons">share</i>
+                </a>
+            </li>
+            <!--
+            <li>
+                <a href="#" class="navbar-toggle no-padding">
+            <span class="material-icons btn-log-out "
+                  style="color: red" title="EXIT">exit_to_app</span>
+                </a>
+            </li>
+            -->
+        </ul>
+    </nav>
+    <!-- 좌측 사이드 메뉴 -->
+    <nav class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation" id="myNavmenu">
+        <!-- Brand and toggle get grouped for better mobile display
+
+        <a class="navmenu-brand" href="#">
+            <b>Comparative Genes Analysis</b>
+        </a>
+         -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="slider-menu" id="slider-heatmap">
+            <ul class="nav navmenu-nav">
+                <li><a href="#" class="separator session-history-menu"><i
+                        class="glyphicon glyphicon-user" style="font-size: 12px;"></i> <span
+                        class="username"></span>
+                    <div class="pull-right submenu-icon"><i class="material-icons btn-log-out"
+                                                            style="color: red" title="EXIT" data-toggle="tooltip">exit_to_app </i>
+                    </div>
+                </a>
+                </li>
+                <!-- Project-->
+                <li class="session-history-menu">
+                    <a>
+                        <div class="form-inline"><i
+                                class="pull-left hidden-xs showopacity glyphicon material-icons sm-menu-icon">folder</i>
+                            Project
+                            <div class="pull-right submenu-icon"><i
+                                    class="material-icons btn-new-project" data-toggle="tooltip"
+                                    title="New project">add</i><i
+                                    class="material-icons btn-del-project" data-toggle="tooltip"
+                                    title="Delete project">delete</i></div>
+                        </div>
+                        <a style="padding-top: 5px;padding-bottom: 5px;padding-left: 13px;"><select
+                                class="form-control project-list"></select></a>
+                    </a>
+                    <!--
+
+                    <ul class="dropdown-menu forAnimate session-dropdown nav-menu" role="menu">
+                        <li><a href="#" class="btn-new-project"><i
+                                class="material-icons pull-right">create_new_folder</i>New
+                            Project</a></li>
+                        <li><a href="#" class="btn-del-project"><i class="material-icons pull-right">delete</i>
+                            Delete Project</a></li>
+                    </ul>
+                    -->
+                </li>
+                <!-- Session -->
+                <li class="session-history-menu separator">
+                    <a>
+                        <div class="form-inline"> Session <i
+                                class="pull-left material-icons sm-menu-icon">library_books</i>
+                            <div class="pull-right submenu-icon">
+                                <i class="material-icons btn-new-session" data-toggle="tooltip"
+                                   title="New session">add</i>
+                                <i class="material-icons btn-edit-session" data-toggle="tooltip"
+                                   title="Edit anootation">mode_edit</i>
+                                <i class="material-icons btn-branch-session" data-toggle="tooltip"
+                                   title="Branch session">timeline</i>
+                                <i class="material-icons btn-save-session" data-toggle="tooltip" title="Save session">cloud_upload</i>
+                                <i class="material-icons btn-del-session" data-toggle="tooltip" title="Delete session">delete</i>
+                            </div>
+                        </div>
+                        <a style="padding-top: 5px;padding-bottom: 5px;padding-left: 13px;"><select
+                                class="form-control session-list"></select></a>
+                    </a>
+
+                    <!--
+                        <ul class="dropdown-menu forAnimate session-dropdown" role="menu">
+                            <li><a href="#" class="btn-new-session"><i class="material-icons pull-right">add</i>New
+                            </a>
+                            </li>
+                            <li><a href="#" class="btn-branch-session"><i class="material-icons pull-right">timeline</i>Branch
+                            </a></li>
+                            <li><a href="#" class="btn-save-session"><i
+                                    class="material-icons pull-right">cloud_upload</i>Save</a></li>
+                            <li><a href="#" class="btn-del-session"><i class="material-icons pull-right">delete</i>
+                                Delete</a></li>
+                        </ul>
+                        -->
+                </li>
+                <li class="session-history-menu">
+                    <a><i
+                            class="pull-left material-icons sm-menu-icon">dashboard</i> Unit
+                        <div class="pull-right submenu-icon">
+                            <i class="material-icons btn-block-new" data-toggle="tooltip" title="New unit">add</i>
+                            <i class="material-icons btn-block-branch" data-toggle="tooltip"
+                               title="Branch & Save unit">timeline</i>
+                            <i class="material-icons btn-block-display" data-toggle="tooltip"
+                               title="Preview unit">visibility</i>
+                            <i class="material-icons btn-block-done" data-toggle="tooltip"
+                               title="Save unit">cloud_upload</i>
+                        </div>
+                    </a>
+                </li>
+                <!-- Block Editor-->
+                <li class="block-editor list-group-item session-history-menu">
+                    <div class="block-editor-group">
+                        <a class="">
+                            <input type="text" class="form-control input-sm"
+                                   placeholder="UNIT NAME..."
+                                   id="block_name">
+                        </a>
+                        <!-- visTypes -->
+                        <a class="hide">
+                            <span class="badge pull-left unit-badge" style="margin-right:80px;"> VIS-TYPES</span>
+                            <!-- chunggilee implementation -->
+                            <select class="form-control input-sm" id="vis_types"
+                                    style="margin-bottom: 2px"> </select>
+                        </a>
+                        <div class="vis-types heatmap">
+                            <!-- Cluster -->
+                            <a class="">
+                                <span class="badge pull-left unit-badge" style="margin-right:80px;"> CLUSTER</span>
+                                <!-- chunggilee implementation -->
+                                <div class="btn-group btn-group-justified">
+                                    <div class="btn-group">
+                                        <!--"#00ff00", "#000000", "#ff0000" default-->
+                                        <button style="background-color: #00ff00" class="btn btn-default" href="#"
+                                                id="btn-color1"
+                                                onclick="unitManager.drawCanvas('canvas_picker1')"></button>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button style="background-color: #000000" class="btn btn-default" href="#"
+                                                id="btn-color2"
+                                                onclick="unitManager.drawCanvas('canvas_picker2')"></button>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button style="background-color: #ff0000" class="btn btn-default" href="#"
+                                                id="btn-color3"
+                                                onclick="unitManager.drawCanvas('canvas_picker3')"></button>
+                                    </div>
+                                </div>
+                                <canvas width="234" height="142" name="canvas_picker" id="canvas_picker1"
+                                        style="display:none;"></canvas>
+                                <canvas width="234" height="142" name="canvas_picker" id="canvas_picker2"
+                                        style="display:none;"></canvas>
+                                <canvas width="234" height="142" name="canvas_picker" id="canvas_picker3"
+                                        style="display:none;"></canvas>
+                                <div class="">
+                                    <select class="form-control input-sm hide"
+                                            id="cluster_color" style="margin-bottom: 2px"
+                                            onchange="unitManager.colorChange(this.options[this.selectedIndex].text)">
+                                        <option disabled>Select clustering colors...</option>
+                                        <option value="Green, Black, Red" selected>Green, Black, Red</option>
+                                        <option value="Blue, White, Red">Blue, White, Red</option>
+                                        <option value="Red, Orange, Yellow">Red, Orange, Yellow</option>
+                                    </select>
+                                    <select class="form-control input-sm" id="cluster_list"
+                                            style="margin-bottom: 2px"> </select>
+                                </div>
+                                <div class="cluster-parameter">
+                                    <input class="form-control cluster-parameter input-sm"
+                                           type="text"
+                                           placeholder="CLUSTER PARAMETER"
+                                           id="cluster_param" style="margin-bottom: 2px">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="vis-types graph"></div>
+                        <div class="vis-types"></div>
+                        <div class="vis-types"></div>
+
+                        <a class="">
+                            <span class="badge pull-left unit-badge"> DATA</span><input
+                                id="block_data" type="file"
+                                class="file"
+                                data-show-upload="false"
+                                data-show-remove="false">
+                        </a>
+                    </div>
+                </li>
+                <li class="list-group-item session-history-menu hide action-history-table">
+                </li>
+            </ul>
+        </div>
+
+        <div class="slider-menu" id="slider-history" style="width:100%;height:100%"></div>
+
+        <div class="slider-menu" id="slider-folder" style="width: 100%;height: 100%">
+            <div class="stat-table-container"></div>
+        </div>
+        <div class="slider-menu" id="slider-network" style="width: 100%;height: 100%">
+            <div class="network-table-container"></div>
+        </div>
+        {% comment %}
+            <div id="slider-history" class="slider-menu" data-dojo-type="dijit/layout/BorderContainer"
+                 style="height:100%;width:100%;padding:0;margin:0;border:1"
+                 data-dojo-props="design:'sidebar', gutters:false, liveSplitters:true" id="table_main"
+                 style="display: none">
+                <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'top', splitter:true"
+                     style="height:50%;width:100%;padding:0;margin:0;border:0;background:#f2f2f2" id="table">
+                    div1
+                    <div class="history-table-container">
+                        <div id="#action_history_table"></div>
+                    </div>
+                </div>
+                <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center', splitter:true"
+                     style="height:50%;width:100%;padding:0;margin:0;border:0" id="sankey">
+                    div2
+                    <div class="history-tree-container">
+                        <svg id="history_tree" width="100%" height="100%"></svg>
+                    </div>
+                </div>
+            </div>{% endcomment %}
+        {#        </div>#}
+    </nav>
+    <!--
+    <nav class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation" id="tableView">
+        <div data-dojo-type="dijit/layout/BorderContainer"
+    {#         style="height:100%;width:100%;padding:0;margin:0;border:1"#}
+             data-dojo-props="design:'sidebar', gutters:false, liveSplitters:true" id="table_main">
+            <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'top', splitter:true"
+                 style="height:50%;width:100%;padding:0;margin:0;border:0;background:#f2f2f2" id="table">
+                    div1
+    {#            </div>#}
+
+            </div>
+            <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center', splitter:true"
+                 style="height:50%;width:100%;padding:0;margin:0;border:0" id="sankey">
+                <sv>
+
+                </sv>
+            </div>
+        </div>
+
+    </nav>
+    -->
+    <!-- 메인 화면 -->
+    <!--
+    {#  <div data-dojo-type="dijit/layout/BorderContainer"#}
+            {#         style="height:100%;width:100%;padding:0;margin:0;border:1"#}
+         data-dojo-props="design:'sidebar', gutters:false, liveSplitters:true" id="main">
+        <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center', splitter:true"
+             id="left_main">
+
+
+        </div>
+        <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'right', splitter:true"
+             id="right_main" style="width:550px">
+            <svg id="network-edge"></svg>
+        </div>
+        -->
+</div>
+<div class="content-list full-content" id="content-list">
+    {# <span class="label label-primary" style="margin-left:4px">Units</span> #}
+    <!-- d3툴팁 팝업 -->
+    <div id="tooltip" style="display: none"></div>
+</div>
+{#    <div class="container-fluid main">#}
+{#        <div class="history hide">#}
+{#            <div class="history-table-container thumbnail">#}
+{#                <span class="label label-primary">History Table</span>#}
+{#                <table id="action_history_table" class="table table-bordered" width="100%">#}
+{#                </table>#}
+{#            </div>#}
+{#            <div class="history-tree-container thumbnail">#}
+{#                <!--#}
+{#                <span class="label label-primary">History Tree</span>#}
+{#                -->#}
+{#                <svg id="history_tree" width="100%" height="300px"></svg>#}
+{#            </div>#}
+{#        </div>#}
+{#        <span class="label label-primary" style="margin-left: 4px">Units</span>#}
+{#        <div class="thumbnail content-list full-content" id="content-list">#}
+{#            <!-- d3툴팁 팝업 -->#}
+{#            <div id="tooltip" style="display: none"></div>#}
+{#        </div>#}
+{#    </div>#}
+<!-- 우측 선형 리스트 -->
+
+<!-- Login Modal -->
+<div class="modal fade" id="login-modal" role="dialog" style="display: none;">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4><span class="glyphicon glyphicon-lock"></span> Login to Germoics</h4>
+            </div>
+            <div class="modal-body">
+                <div>
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+                        <input type="text" class="form-control" id="usrname" placeholder="Enter your userid">
+                    </div>
+                    <div class="form-group">
+                        <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                        <input type="password" class="form-control" id="psw" placeholder="Enter password">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="" checked>Remember me</label>
+                    </div>
+                    <button class="btn btn-default btn-primary btn-block btn-sign-in"><span
+                            class="glyphicon glyphicon-off"></span> Login
+                    </button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <span class="log-in" style="color: red;"></span>
+                <p>Forgot <a href="#">Password?</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Project create Modal -->
+
+<div id="project-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><i class="material-icons pull-left">note_add</i> <span
+                        class="project-modal-title">Create</span> Project</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Name </label><input class="form-control input-project-name">
+                    <label>Annotation </label><textarea class="form-control input-project-note"
+                                                        rows="10"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <span class="new-project-error-msg" style="color: red;;"></span>
+                <button class="btn btn-primary btn-create-project">Done</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Project delete Modal -->
+<div class="modal fade" id="delete-project-modal" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><span class="label label-danger">Warning!</span></h4>
+            </div>
+            <div class="modal-body">
+                <h4>
+                    This will delete <span class="label label-danger del-project-id"></span> project.</span>
+                </h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-block btn-default btn-del-project" data-dismiss="modal">
+                    Confirm
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Session create Modal -->
+<div id="session-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><i class="material-icons pull-left">note_add</i> <span
+                        class="session-modal-title">Create</span> Session</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Name </label><input class="form-control input-session-name">
+                    <label>Annotation </label><textarea class="form-control input-session-note"
+                                                        rows="10"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <span class="new-session-error-msg" style="color: red;;"></span>
+                <button class="btn btn-primary btn-create-session" style="display: none">Done</button>
+                <button class="btn btn-primary btn-branch-session" style="display: none">Done</button>
+                <button class="btn btn-warning btn-edit-done-session" style="display: none">Edit</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Session delete Modal -->
+<div class="modal fade" id="delete-session-modal" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><span class="label label-danger">Warning!</span></h4>
+            </div>
+            <div class="modal-body">
+                <h4>
+                    This will delete <span class="label label-danger del-session-id"></span> session.</span>
+                </h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-block btn-default btn-del-session" data-dismiss="modal">
+                    Confirm
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Session save Modal -->
+<div id="save-session-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><i class="material-icons pull-left">note_add</i> <span
+                        class="session-modal-title">Save</span> Session</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <pre>There are some units on preview mode.
+                        Select units to save.</pre>
+                    <select class="selectpicker" id="save-preview-unit-list" multiple data-width="100%">
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <span class="new-session-error-msg" style="color: red;;"></span>
+                <button class="btn btn-primary btn-save-preview-session">Done</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Annotattion create Modal -->
+<div id="annotation-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><i class="material-icons pull-left">note_add</i> <span
+                        class="project-modal-title">Create</span> Annotation
+                    <div>
+                        <span class="label label-default project-badge" style="margin-right: 5px"></span> <span
+                            class="label label-default session-badge" style="margin-right: 5px"></span> <span
+                            class="label label-primary unit-name" style="margin-right: 5px"></span>
+                    </div>
+                    <span class="new-project-error-msg" style="color: red;;"></span>
+                </h4>
+
+
+            </div>
+            <div class="modal-body">
+                <div class="form-group annotation-margin">
+                    <span class="label label-default">Author</span><input class="form-control input-author-note"
+                                                                          rows="5" readonly>
+                    <span class="label label-default">Date</span><input class="form-control input-last-edited-note"
+                                                                        rows="5" readonly>
+                    <span class="label label-default">Cluster</span><input class="form-control input-cluster-note"
+                                                                           rows="5" readonly>
+                    <span class="label label-default">Data Annotation - <i class="data-name-badge"></i></span></span>
+                    <textarea
+                            class="form-control input-data-note" rows="5"></textarea>
+                    <span class="label label-default">Research Annotation</span><textarea
+                        class="form-control input-research-note"
+                        rows="5"></textarea>
+                    <span class="label label-default">Experiment type</span><input
+                        class="form-control input-experiment-note" rows="5">
+                    <span class="label label-default">Platform name</span><input
+                        class="form-control input-platform-note" rows="5">
+                    <span class="label label-default">Organism</span><input class="form-control input-organism-note"
+                                                                            rows="5">
+                    <button class="btn btn-primary btn-block btn-create-annotation">Done</button>
+                </div>
+            </div>
+            <!--
+            <div class="modal-footer">
+            </div>
+            -->
+        </div>
+    </div>
+</div>
+
+<!-- History depend Modal -->
+<div id="history-dependent-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><i class="material-icons pull-left">note_add</i> <span
+                        class="project-modal-title">Undo</span> Conflicts
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="annotation-margin">
+                    <div class="history-dependent-table-container">
+                    </div>
+                    <br>
+                    <a class="btn btn-sm btn-block btn-choose-undo">Undo</a>
+                </div>
+            </div>
+            <!--
+            <div class="modal-footer">
+            </div>
+            -->
+        </div>
+    </div>
+</div>
+<div id="history-copy-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><i class="material-icons pull-left">note_add</i>Select Action to <span
+                        class="history-copy-modal-title">Move</span>
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="annotation-margin">
+                    <div class="history-copy-table-container">
+                    </div>
+                    <br>
+                    <a class="btn btn-primary btn-sm btn-block btn-choose-copy-action">Done</a>
+                </div>
+            </div>
+            <!--
+            <div class="modal-footer">
+            </div>
+            -->
+        </div>
+    </div>
+</div>
+
+
+<!-- Alert Modal -->
+<div id="alert-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <a href="#" class="btn btn-danger btn-block" data-dismiss="modal"
+               aria-label="Close"><strong>Unavailable!</strong> Can not perform your request.</a>
+        </div>
+    </div>
+</div>
+<!-- Pathway mouseover popup -->
+<div class="canvas-popup" style="z-index: 98">
+    <svg></svg>
+</div>
+<!-- contextmenu-->
+<ul class="dropdown-menu" id="contextMenu" style="position: absolute;display: none" role="menu">
+    <li class="dropdown-submenu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Network</a>
+        <ul class="dropdown-menu network-species-options">
+            <li class="dropdown-header">Species</li>
+            <!--<li class="divider"></li>-->
+            <!--<li><a href="#">One more separated link</a></li>-->
+        </ul>
+    </li>
+    <li class="dropdown-submenu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">GESA Table</a>
+        <ul class="dropdown-menu gesa-species-options">
+            <li class="dropdown-header">Species</li>
+            <!--<li class="divider"></li>-->
+            <!--<li><a href="#">One more separated link</a></li>-->
+        </ul>
+    </li>
+    <li>
+        <a href="#" class="context-menu-new-block" >Branch Sub-Unit</a>
+    </li>
+</ul>
+<!-- library dependency. Do not change the order -->
+<!-- dev support -->
+<script src="static/js/babel/browser.min.js"></script>
+<script src="static/js/jquery/dist/jquery.min.js"></script>
+<script src="static/js/lodash/dist/lodash.min.js"></script>
+<!-- bootstrap -->
+<script src="static/js/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="static/js/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+<script src="static/js/bootstrap-toggle/js/bootstrap-toggle.min.js"></script>
+<script src="static/js/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+<!--<script src="static/js/bootstrap-submenu/dist/js/bootstrap-submenu.min.js"></script>-->
+
+
+<script src="static/js/bootstrap-fileinput/js/fileinput.js"></script>
+<!-- d3-js-->
+<script src="static/js/d3/d3.min.js"></script>
+<script src="static/js/d3/d3-selection-multi.min.js"></script>
+<script src="static/js/d3-tip/index.js"></script>
+<script src="static/js/d3-context-menu/js/d3-context-menu.js"></script>
+<script src="static/js/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="static/js/d3-fisheye/d3-fisheye.js"></script>
+<!--
+<script src="static/js/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+-->
+<script src="static/js/history-sankey.js"></script>
+<!-- jqueryui -->
+<script src="static/js/jquery-ui/jquery-ui.min.js"></script>
+<script src="static/js/jquery-ui/resize.js"></script>
+<!-- jquery-contextmenu -->
+<script src="static/js/jquery-contextmenu/dist/jquery.contextMenu.js"></script>
+
+<!-- dojo/digit -->
+<script data-dojo-config="async: 1" src="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dojo/dojo.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/dojo/1.10.4/dijit/themes/claro/claro.css">
+
+<!-- library dependency ends -->
+
+<!-- //dev modules. Theses would be a one compressed file in the dist. -->
+<!-- userManager -->
+<script src="static/case/src/userManager/userInit.js"></script>
+<script src="static/case/src/userManager/userLogin.js"></script>
+<script src="static/case/src/userManager/userProject.js"></script>
+<script src="static/case/src/userManager/userSession.js"></script>
+<!-- historyManager -->
+<script src="static/case/src/historyManager/historyInit.js"></script>
+<script src="static/case/src/historyManager/historyAction.js"></script>
+<script src="static/case/src/historyManager/historySession.js"></script>
+<script src="static/case/src/historyManager/historyUnit.js"></script>
+<!-- unitManager -->
+<script src="static/case/src/unitManager/unitInit.js"></script>
+<script src="static/case/src/unitManager/unitEdit.js"></script>
+<script src="static/case/src/unitManager/unitDisplay.js"></script>
+<script src="static/case/src/unitManager/unitAnnotation.js"></script>
+<!-- visualizer -->
+<script src="static/case/src/visualizer/visualizerInit.js"></script>
+<script src="static/case/src/visualizer/unit.js"></script>
+<script src="static/case/src/visualizer/history.js"></script>
+<script src="static/case/src/visualizer/historyTable.js"></script>
+<script src="static/case/src/visualizer/network.js"></script>
+<script src="static/case/src/visualizer/networkTable.js"></script>
+<script src="static/case/src/visualizer/statistics.js"></script>
+<script src="static/case/src/visualizer/statTable.js"></script>
+<!-- moduleNetwork -->
+<script src="static/case/src/moduleNetwork/initNetwork.js"></script>
+<script src="static/case/src/moduleNetwork/handleNetwork.js"></script>
+<!-- initiative -->
+<script src="static/case/src/common.js"></script>
+<script src="static/case/src/init.js"></script>
+
+<!-- dev modules end.//
+<script>
+
+    require(["dojo/parser", "dijit/layout/BorderContainer", "dijit/layout/ContentPane", "dojo/domReady!"], function (parser, BorderContainer, ContentPane) {
+
+        $("#main").css("height", $(window).height());
+        $("#table_main").css("height", $(window).height());
+
+        parser.parse();
+    });
+
+</script>
+-->
+</body>
+</html>

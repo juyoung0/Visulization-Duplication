@@ -1,0 +1,493 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "size": 0,
+      "label": "HSPA6"
+    },
+    {
+      "id": 1,
+      "size": 1,
+      "label": "HSPA9"
+    },
+    {
+      "id": 2,
+      "size": 0,
+      "label": "HSPA4"
+    },
+    {
+      "id": 3,
+      "size": 0,
+      "label": "HSPA9"
+    },
+    {
+      "id": 4,
+      "size": 2,
+      "label": "HSPA1A"
+    },
+    {
+      "id": 5,
+      "size": 3,
+      "label": "HSPA1B"
+    },
+    {
+      "id": 6,
+      "size": 1,
+      "label": "HSPA13"
+    },
+    {
+      "id": 7,
+      "size": 0,
+      "label": "HSPA4L"
+    },
+    {
+      "id": 8,
+      "size": 0,
+      "label": "HSPA8"
+    },
+    {
+      "id": 9,
+      "size": 0,
+      "label": "HSPA2"
+    },
+    {
+      "id": 10,
+      "size": 3,
+      "label": "HSPA5"
+    },
+    {
+      "id": 11,
+      "size": 0,
+      "label": "HSPA6"
+    },
+    {
+      "id": 12,
+      "size": 1,
+      "label": "HSPA12A"
+    },
+    {
+      "id": 13,
+      "size": 1,
+      "label": "HSPA14"
+    },
+    {
+      "id": 14,
+      "size": 4,
+      "label": "PLD1"
+    },
+    {
+      "id": 15,
+      "size": 5,
+      "label": "PLD3"
+    },
+    {
+      "id": 16,
+      "size": 2,
+      "label": "GPLD1"
+    },
+    {
+      "id": 17,
+      "size": 1,
+      "label": "HSPA9"
+    },
+    {
+      "id": 18,
+      "size": 3,
+      "label": "HSPA1A"
+    },
+    {
+      "id": 19,
+      "size": 1,
+      "label": "HSPA9"
+    },
+    {
+      "id": 20,
+      "size": 2,
+      "label": "HSPA1B"
+    },
+    {
+      "id": 21,
+      "size": 0,
+      "label": "HSPA6"
+    },
+    {
+      "id": 22,
+      "size": 2,
+      "label": "HSPA6"
+    },
+    {
+      "id": 23,
+      "size": 6,
+      "label": "HSPA8"
+    },
+    {
+      "id": 24,
+      "size": 3,
+      "label": "HSPA12"
+    },
+    {
+      "id": 25,
+      "size": 2,
+      "label": "HSPA1A"
+    },
+    {
+      "id": 26,
+      "size": 1,
+      "label": "HSPA3"
+    },
+    {
+      "id": 27,
+      "size": 2,
+      "label": "HSPA6"
+    },
+    {
+      "id": 28,
+      "size": 1,
+      "label": "HSPA9"
+    },
+    {
+      "id": 29,
+      "size": 7,
+      "label": "HSPA1L"
+    },
+    {
+      "id": 30,
+      "size": 8,
+      "label": "HSPA13B"
+    },
+    {
+      "id": 31,
+      "size": 0,
+      "label": "HSPA13"
+    },
+    {
+      "id": 32,
+      "size": 9,
+      "label": "GPLD1"
+    },
+    {
+      "id": 33,
+      "size": 9,
+      "label": "GPLD1"
+    },
+    {
+      "id": 34,
+      "size": 1,
+      "label": "PLD3"
+    },
+    {
+      "id": 35,
+      "size": 2,
+      "label": "HSPA4"
+    },
+    {
+      "id": 36,
+      "size": 10,
+      "label": "HSPA2"
+    },
+    {
+      "id": 37,
+      "size": 1,
+      "label": "HSPA12A"
+    },
+    {
+      "id": 38,
+      "size": 2,
+      "label": "HSPA9"
+    },
+    {
+      "id": 39,
+      "size": 11,
+      "label": "HSPA14A"
+    },
+    {
+      "id": 40,
+      "size": 1,
+      "label": "HSPA14"
+    },
+    {
+      "id": 41,
+      "size": 9,
+      "label": "HSPA6"
+    },
+    {
+      "id": 42,
+      "size": 12,
+      "label": "HSPA5"
+    },
+    {
+      "id": 43,
+      "size": 2,
+      "label": "HSPA2"
+    },
+    {
+      "id": 44,
+      "size": 3,
+      "label": "HSPA4"
+    },
+    {
+      "id": 45,
+      "size": 0,
+      "label": "HSPA2"
+    }
+  ],
+  "edges": [
+    {
+      "source": 1,
+      "target": 7
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "both": true
+    },
+    {
+      "source": 1,
+      "target": 12
+    },
+    {
+      "source": 12,
+      "target": 11
+    },
+    {
+      "source": 1,
+      "target": 13
+    },
+    {
+      "source": 13,
+      "target": 1
+    },
+    {
+      "source": 1,
+      "target": 26
+    },
+    {
+      "source": 2,
+      "target": 0
+    },
+    {
+      "source": 2,
+      "target": 8
+    },
+    {
+      "source": 2,
+      "target": 11
+    },
+    {
+      "source": 2,
+      "target": 45
+    },
+    {
+      "source": 4,
+      "target": 38
+    },
+    {
+      "source": 5,
+      "target": 18
+    },
+    {
+      "source": 5,
+      "target": 44
+    },
+    {
+      "source": 6,
+      "target": 19
+    },
+    {
+      "source": 6,
+      "target": 28
+    },
+    {
+      "source": 6,
+      "target": 33
+    },
+    {
+      "source": 7,
+      "target": 0
+    },
+    {
+      "source": 7,
+      "target": 3
+    },
+    {
+      "source": 7,
+      "target": 11
+    },
+    {
+      "source": 7,
+      "target": 21
+    },
+    {
+      "source": 7,
+      "target": 31
+    },
+    {
+      "source": 9,
+      "target": 7
+    },
+    {
+      "source": 7,
+      "target": 9
+    },
+    {
+      "source": 10,
+      "target": 44
+    },
+    {
+      "source": 13,
+      "target": 1
+    },
+    {
+      "source": 16,
+      "target": 22
+    },
+    {
+      "source": 17,
+      "target": 19
+    },
+    {
+      "source": 19,
+      "target": 17
+    },
+    {
+      "source": 19,
+      "target": 26
+    },
+    {
+      "source": 20,
+      "target": 16
+    },
+    {
+      "source": 20,
+      "target": 44
+    },
+    {
+      "source": 21,
+      "target": 37
+    },
+    {
+      "source": 37,
+      "target": 21
+    },
+    {
+      "source": 22,
+      "target": 16
+    },
+    {
+      "source": 22,
+      "target": 28
+    },
+    {
+      "source": 22,
+      "target": 38
+    },
+    {
+      "source": 24,
+      "target": 18
+    },
+    {
+      "source": 25,
+      "target": 16
+    },
+    {
+      "source": 25,
+      "target": 27
+    },
+    {
+      "source": 26,
+      "target": 1
+    },
+    {
+      "source": 26,
+      "target": 19
+    },
+    {
+      "source": 26,
+      "target": 28
+    },
+    {
+      "source": 27,
+      "target": 16
+    },
+    {
+      "source": 28,
+      "target": 6
+    },
+    {
+      "source": 28,
+      "target": 19
+    },
+    {
+      "source": 28,
+      "target": 22
+    },
+    {
+      "source": 33,
+      "target": 32
+    },
+    {
+      "source": 34,
+      "target": 26
+    },
+    {
+      "source": 35,
+      "target": 27
+    },
+    {
+      "source": 37,
+      "target": 6
+    },
+    {
+      "source": 37,
+      "target": 13
+    },
+    {
+      "source": 37,
+      "target": 40
+    },
+    {
+      "source": 38,
+      "target": 22
+    },
+    {
+      "source": 38,
+      "target": 25
+    },
+    {
+      "source": 38,
+      "target": 43
+    },
+    {
+      "source": 41,
+      "target": 33
+    },
+    {
+      "source": 43,
+      "target": 25
+    },
+    {
+      "source": 43,
+      "target": 38
+    },
+    {
+      "source": 44,
+      "target": 16
+    },
+    {
+      "source": 44,
+      "target": 18
+    },
+    {
+      "source": 44,
+      "target": 24
+    },
+    {
+      "source": 44,
+      "target": 43
+    },
+    {
+      "source": 45,
+      "target": 2
+    }
+  ]
+}

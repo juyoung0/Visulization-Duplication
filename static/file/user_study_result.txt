@@ -1,0 +1,264 @@
+user : S1
+experiment
+proj : experiment ses : PROBLEM1 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 0
+proj : experiment ses : PROBLEM2 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 2 Save-Session : 0 Branch-Session : 1
+proj : experiment ses : PROBLEM3 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 2 Save-Session : 0 Branch-Session : 1
+proj : experiment ses : PROBLEM4 ver : 0 restoration : 0 work-unit : 2 Branch-Unit : 1 Save-Unit : 4 Save-Session : 0 Branch-Session : 1
+user : S2
+experiment
+proj : experiment ses : Problem 1 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 3 Save-Session : 0 Branch-Session : 0
+proj : experiment ses : Problem 3 ver : 0 restoration : 4 work-unit : 1 Branch-Unit : 0 Save-Unit : 9 Save-Session : 0 Branch-Session : 1
+2.
+Incorrect
+user ans : BuickRegalSportCoupe(Turbo)
+ans : Buick Regal Sport Coupe (Turbo)
+
+3.
+Incorrect
+user ans : Mercedes-Benz280s
+ans : Mercedes-Benz 280S
+
+proj : experiment ses : Problem4 ver : 0 restoration : 6 work-unit : 2 Branch-Unit : 2 Save-Unit : 17 Save-Session : 0 Branch-Session : 1
+4.
+Incorrect
+user ans : 2
+ans : (3)
+
+4.
+Correct
+user ans : 3
+ans : (3)
+
+proj : experiment ses : Problem 5 ver : 0 restoration : 6 work-unit : 2 Branch-Unit : 2 Save-Unit : 17 Save-Session : 0 Branch-Session : 1
+5.
+Incorrect
+user ans : 1
+ans : 7
+
+user : S3
+experiment
+user : S4
+experiment
+proj : experiment ses : Problem1 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 0
+proj : experiment ses : Problem2 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 2 Save-Session : 0 Branch-Session : 0
+2.
+Incorrect
+user ans : BuickRegalSportCoupe(Turbo)
+ans : Buick Regal Sport Coupe (Turbo)
+
+proj : experiment ses : Problem3 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 0
+proj : experiment ses : 2017-08-14 15:20:47, Problem3 - Ver. 0 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 0
+3.
+Incorrect
+user ans : Mercedes-Benz280S
+ans : Mercedes-Benz 280S
+
+proj : experiment ses : Problem4 ver : 0 restoration : 0 work-unit : 1 Branch-Unit : 0 Save-Unit : 3 Save-Session : 0 Branch-Session : 0
+4.
+Incorrect
+user ans : (2)
+ans : (3)
+
+proj : experiment ses : Problem5 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 3 Save-Session : 0 Branch-Session : 1
+5.
+Incorrect
+user ans : 1
+ans : 7
+
+user : S5
+experiment
+proj : experiment ses : problem1 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 4 Save-Session : 0 Branch-Session : 0
+1.
+Incorrect
+user ans : buickestatewagon
+ans : Buick Estate Wagon (Wagon)
+
+proj : experiment ses : problem2 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 2 Save-Session : 0 Branch-Session : 0
+2.
+Incorrect
+user ans : mercurycapriV6
+ans : Buick Regal Sport Coupe (Turbo)
+
+2.
+Incorrect
+user ans : mercurycapriv6
+ans : Buick Regal Sport Coupe (Turbo)
+
+proj : experiment ses : problem 3 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 3 Save-Session : 0 Branch-Session : 0
+3.
+Incorrect
+user ans : Mercedes-Benz280S
+ans : Mercedes-Benz 280S
+
+proj : experiment ses : problem4 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 9 Save-Session : 0 Branch-Session : 0
+4.
+Correct
+user ans : (3)
+ans : (3)
+
+proj : experiment ses : problem5 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 0
+5.
+Correct
+user ans : 7
+ans : 7
+
+user : S6
+experiment
+proj : experiment ses : Problem1 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 6 Save-Session : 0 Branch-Session : 0
+1.
+Incorrect
+user ans : BuickEstateWagon(Wagon)
+ans : Buick Estate Wagon (Wagon)
+
+proj : experiment ses : Problem2 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 3 Save-Session : 0 Branch-Session : 0
+2.
+Incorrect
+user ans : BuickRegalSportCoupe(Turbo)
+ans : Buick Regal Sport Coupe (Turbo)
+
+proj : experiment ses : Problem3 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 2 Save-Session : 0 Branch-Session : 0
+3.
+Incorrect
+user ans : ChryslerCordoba
+ans : Mercedes-Benz 280S
+
+proj : experiment ses : Problem4 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 3 Save-Session : 0 Branch-Session : 0
+4.
+Incorrect
+user ans : (1)
+ans : (3)
+
+proj : experiment ses : Problem5 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 0
+5.
+Incorrect
+user ans : 21
+ans : 7
+
+user : S7
+experiment
+proj : experiment ses : PROBLEM1 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 3 Save-Session : 0 Branch-Session : 0
+1.
+Incorrect
+user ans : BuickEstateWagon
+ans : Buick Estate Wagon (Wagon)
+
+proj : experiment ses : problem2 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 2 Save-Session : 0 Branch-Session : 0
+2.
+Incorrect
+user ans : BuickRegalSportCoupe(Torbo)
+ans : Buick Regal Sport Coupe (Turbo)
+
+proj : experiment ses : problem3 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 4 Save-Unit : 5 Save-Session : 0 Branch-Session : 0
+3.
+Incorrect
+user ans : mercedes-Benz280S
+ans : Mercedes-Benz 280S
+
+proj : experiment ses : problem4 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 5 Save-Unit : 7 Save-Session : 0 Branch-Session : 0
+4.
+Incorrect
+user ans : 4
+ans : (3)
+
+4.
+Incorrect
+user ans : 2
+ans : (3)
+
+proj : experiment ses : problem5 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 0
+5.
+Incorrect
+user ans : 1
+ans : 7
+
+user : S8
+experiment
+proj : experiment ses : Problem1 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 4 Save-Session : 0 Branch-Session : 0
+1.
+Incorrect
+user ans : BuickEstateWagon(Wagon)
+ans : Buick Estate Wagon (Wagon)
+
+proj : experiment ses : Problem2 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 3 Save-Session : 0 Branch-Session : 0
+2.
+Incorrect
+user ans : BucikEstateWagon(Wagon)
+ans : Buick Regal Sport Coupe (Turbo)
+
+proj : experiment ses : Problem3 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 3 Save-Unit : 4 Save-Session : 0 Branch-Session : 0
+3.
+Incorrect
+user ans : Mercedes-Benz280S
+ans : Mercedes-Benz 280S
+
+proj : experiment ses : Problem4 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 3 Save-Session : 0 Branch-Session : 0
+proj : experiment ses : Problem5 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 0
+5.
+Incorrect
+user ans : 1
+ans : 7
+
+user : S9
+experiment
+proj : experiment ses : Problem1 ver : 0 restoration : 0 work-unit : 1 Branch-Unit : 0 Save-Unit : 2 Save-Session : 0 Branch-Session : 0
+1.
+Incorrect
+user ans : BuickEstateWagon
+ans : Buick Estate Wagon (Wagon)
+
+proj : experiment ses : Problem 2 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 0
+2.
+Incorrect
+user ans : ChevroletCitation
+ans : Buick Regal Sport Coupe (Turbo)
+
+proj : experiment ses : Problem 3 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 1
+3.
+Incorrect
+user ans : Mercedes-Benz280s
+ans : Mercedes-Benz 280S
+
+proj : experiment ses : Problem 4 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 1
+4.
+Incorrect
+user ans : (2)
+ans : (3)
+
+proj : experiment ses : Problem 5 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 1
+5.
+Incorrect
+user ans : 0
+ans : 7
+
+user : S10
+experiment
+proj : experiment ses : Problem1 ver : 0 restoration : 0 work-unit : 1 Branch-Unit : 0 Save-Unit : 7 Save-Session : 0 Branch-Session : 0
+1.
+Incorrect
+user ans : BuickEstateWagon(Wagon)
+ans : Buick Estate Wagon (Wagon)
+
+2.
+Incorrect
+user ans : MercuryCapriV6
+ans : Buick Regal Sport Coupe (Turbo)
+
+proj : experiment ses : Problem2 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 2 Save-Session : 0 Branch-Session : 0
+proj : experiment ses : Problem3 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 2 Save-Unit : 3 Save-Session : 0 Branch-Session : 0
+3.
+Incorrect
+user ans : Mercedes-Benz280S
+ans : Mercedes-Benz 280S
+
+proj : experiment ses : Problem4 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 2 Save-Unit : 3 Save-Session : 0 Branch-Session : 0
+4.
+Correct
+user ans : (3)
+ans : (3)
+
+proj : experiment ses : Problem5 ver : 0 restoration : 0 work-unit : 0 Branch-Unit : 0 Save-Unit : 1 Save-Session : 0 Branch-Session : 0
+5.
+Correct
+user ans : 7
+ans : 7
+

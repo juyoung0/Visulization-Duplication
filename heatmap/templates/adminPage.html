@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en" style="overflow-x:hidden">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Admin Page</title>
+    <meta name="author" content="chunggilee">
+    <!-- library dependency -->
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="static/css/adminPageStyle.css" rel="stylesheet">
+    <!-- css modules end-->
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <script>
+
+
+        // using jQuery
+function getCookie(name) {
+    var cookieValue = null;
+    if (document.cookie && document.cookie != '') {
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = jQuery.trim(cookies[i]);
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+function csrfSafeMethod(method) {
+    // these HTTP methods do not require CSRF protection
+    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
+function sameOrigin(url) {
+    // test that a given url is a same-origin URL
+    // url could be relative or scheme relative or absolute
+    var host = document.location.host; // host + port
+    var protocol = document.location.protocol;
+    var sr_origin = '//' + host;
+    var origin = protocol + sr_origin;
+    // Allow absolute or scheme relative URLs to same origin
+    return (url == origin || url.slice(0, origin.length + 1) == origin + '/') ||
+        (url == sr_origin || url.slice(0, sr_origin.length + 1) == sr_origin + '/') ||
+        // or any other URL that isn't scheme relative or absolute i.e relative.
+        !(/^(\/\/|http:|https:).*/.test(url));
+}
+$.ajaxSetup({
+    beforeSend: function(xhr, settings) {
+        if (!csrfSafeMethod(settings.type) && sameOrigin(settings.url)) {
+            // Send the token to same-origin, relative URLs only.
+            // Send the token only if the method warrants CSRF protection
+            // Using the CSRFToken value acquired earlier
+            xhr.setRequestHeader("X-CSRFToken", csrftoken);
+        }
+    }
+});
+function csrfSafeMethod(method) {
+    // these HTTP methods do not require CSRF protection
+    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
+$.ajaxSetup({
+    beforeSend: function(xhr, settings) {
+        if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+            xhr.setRequestHeader("X-CSRFToken", csrftoken);
+        }
+    }
+});
+var csrftoken = getCookie('csrftoken');
+        $.ajax({
+            url: "getMembers.html",
+            method: 'post',
+            success: function successRestoreUnit(data, status) {
+            var content = $( ".widget" ).append('<fieldset id = "fContent">');
+            var fContent = $("#fContent")
+            for ($i = 0; $i < data.output.length; $i++) {
+                fContent.append('<label for="checkbox-' + $i + '" id = "checkbox-' + $i + '" class="ui-checkboxradio-label ui-corner-all ui-button ui-widget">');
+                $('#checkbox-'+$i).text(data.output[$i]['user_id']);
+                fContent.append('<input type="checkbox" name="checkbox-' + $i + '" + id = "checkbox-' + $i + '">');
+            }
+        }
+        });
+
+
+  $( function() {
+    $( "input" ).checkboxradio();
+  } );
+  </script>
+
+</head>
+<body>
+{% csrf_token %}
+<div class="widget">
+  <h1>Admin Page - Analysis</h1>
+
+  <h2>User List : </h2>
+
+</div>
+<script src="static/js/babel/browser.min.js"></script>
+<script src="static/js/jquery/dist/jquery.min.js"></script>
+<script src="static/js/lodash/dist/lodash.min.js"></script>
+<!-- bootstrap -->
+<script src="static/js/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="static/js/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+<script src="static/js/bootstrap-toggle/js/bootstrap-toggle.min.js"></script>
+<script src="static/js/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+<!--<script src="static/js/bootstrap-submenu/dist/js/bootstrap-submenu.min.js"></script>-->
+
+
+<script src="static/js/bootstrap-fileinput/js/fileinput.js"></script>
+<!-- d3-js-->
+<script src="static/js/d3/d3.min.js"></script>
+<script src="static/js/d3/d3-selection-multi.min.js"></script>
+<script src="static/js/d3-tip/index.js"></script>
+<script src="static/js/d3-context-menu/js/d3-context-menu.js"></script>
+<script src="static/js/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="static/js/d3-fisheye/d3-fisheye.js"></script>
+<!--
+<script src="static/js/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+-->
+<script src="static/js/history-sankey.js"></script>
+<!-- jqueryui -->
+<script src="static/js/jquery-ui/jquery-ui.min.js"></script>
+<script src="static/js/jquery-ui/resize.js"></script>
+<!-- jquery-contextmenu -->
+<script src="static/js/jquery-contextmenu/dist/jquery.contextMenu.js"></script>
+
+<!-- dojo/digit -->
+<script data-dojo-config="async: 1" src="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dojo/dojo.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/dojo/1.10.4/dijit/themes/claro/claro.css">
+
+<!-- library dependency ends -->
+
+<!-- //dev modules. Theses would be a one compressed file in the dist. -->
+<!-- userManager -->
+<script src="static/case/src/userManager/userInit.js"></script>
+<script src="static/case/src/userManager/userLogin.js"></script>
+<script src="static/case/src/userManager/userProject.js"></script>
+<script src="static/case/src/userManager/userSession.js"></script>
+<!-- historyManager -->
+<script src="static/case/src/historyManager/historyInit.js"></script>
+<script src="static/case/src/historyManager/historyAction.js"></script>
+<script src="static/case/src/historyManager/historySession.js"></script>
+<script src="static/case/src/historyManager/historyUnit.js"></script>
+<!-- unitManager -->
+<script src="static/case/src/unitManager/unitInit.js"></script>
+<script src="static/case/src/unitManager/unitEdit.js"></script>
+<script src="static/case/src/unitManager/unitDisplay.js"></script>
+<script src="static/case/src/unitManager/unitAnnotation.js"></script>
+<!-- visualizer -->
+<script src="static/case/src/visualizer/visualizerInit.js"></script>
+<script src="static/case/src/visualizer/unit.js"></script>
+<script src="static/case/src/visualizer/history.js"></script>
+<script src="static/case/src/visualizer/historyTable.js"></script>
+<script src="static/case/src/visualizer/network.js"></script>
+<script src="static/case/src/visualizer/networkTable.js"></script>
+<script src="static/case/src/visualizer/statistics.js"></script>
+<script src="static/case/src/visualizer/statTable.js"></script>
+<!-- moduleNetwork -->
+<script src="static/case/src/moduleNetwork/initNetwork.js"></script>
+<script src="static/case/src/moduleNetwork/handleNetwork.js"></script>
+<!-- initiative -->
+<script src="static/case/src/common.js"></script>
+<script src="static/case/src/init.js"></script>
+</body>
+</html>

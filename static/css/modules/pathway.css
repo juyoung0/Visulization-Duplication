@@ -1,0 +1,4 @@
+.graph-node text {
+    pointer-events: none;
+    font: 5px sans-serif;
+}

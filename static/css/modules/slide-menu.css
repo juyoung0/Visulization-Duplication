@@ -1,0 +1,57 @@
+.canvas-slid #content-list {
+    width: 100% !important;
+}
+.file-footer-buttons{
+    display:none;
+}
+.submenu-icon > i {
+    font-size: 20px !important;
+}
+
+.submenu-icon > i:hover {
+    color: #007fff;
+    cursor: pointer;
+}
+.navmenu {
+    font-size : 12px !important;
+}
+#myNavmenu{
+    width: 550px!important;
+}
+
+.navmenu-icon {
+    width: 45px;
+}
+
+.navmenu-icon ul > li > a {
+    margin-right: 0px;
+}
+.form-control select {
+    overflow-y: scroll !important;
+}
+.nav .navmenu-nav .active > a {
+    background-color: #222 !important;
+}
+
+.history-table-container{
+    width: 100% !important;
+}
+.history-tree-container{
+    width: 100% !important;
+}
+.network-table-container{
+    padding: 8px;
+}
+.stat-table-container{
+    padding: 8px;
+}
+
+.kv-preview-data {
+    width: 100% !important;
+}
+.file-preview-frame{
+    width: 95% !important;
+}
+.file-upload-indicator{
+    display: none;
+}

@@ -1,0 +1,104 @@
+﻿problem,group,user,logs,units,annotation,unit branch,session branch,Parallel Coordinate Plot,Scatter Plot,Scatterplot Matrix,Accuracy,restore,time,session_name,confidence,project_name
+Problem 5,E,S3,135,2,1,0,0,2,0,0,1,0,0:03:22,Problem5,7,experiment
+Problem 5,C,S4,26,3,1,0,1,1,1,1,0,0,0:01:55,Problem5,4,experiment
+Problem 5,E,S5,74,1,1,0,0,1,0,0,1,0,0:01:59,problem5,6,experiment
+Problem 5,E,S6,45,1,1,0,0,1,0,0,0,0,0:05:08,Problem5,3,experiment
+Problem 5,E,S7,38,1,1,0,0,1,0,0,0,0,0:02:12,problem5,7,EXPERIMENT
+Problem 5,E,S8,36,1,1,0,0,1,0,0,0,0,0:01:10,Problem5,7,experiment
+Problem 5,C,S9,75,1,1,0,1,1,0,0,0,0,0:02:57,Problem 5,4,experiment
+Problem 5,E,S10,74,1,2,0,0,1,0,0,1,0,0:05:51,Problem5,6,experiment
+Problem 5,C,S11,26,1,1,0,1,1,0,0,1,0,0:02:15,problem 5,7,expreriment
+Problem 5,E,S12,106,3,1,0,0,1,1,1,1,0,0:04:13,Problem 5,7,experiment
+Problem 5,E,S13,44,1,1,0,0,1,0,0,0,0,0:03:30,Problem5,7,experiment
+Problem 5,D,S14,71,2,1,0,1,1,1,0,0,29,0:03:15,Problem5,7,experiment
+Problem 5,E,S15,30,1,1,0,0,1,0,0,0,0,0:02:12,Problem5,5,experiment
+Problem 5,C,S16,150,14,1,12,1,14,0,0,1,0,0:05:27,Problem 5,7,experiment
+Problem 5,C,S18,46,4,4,2,1,4,0,0,1,0,0:03:19,Problem5,7,experiment
+Problem 5,E,S19,159,1,1,0,0,1,0,0,1,0,0:01:48,Problem5,7,experiment
+Problem 5,C,S20,79,5,1,3,1,4,0,1,1,0,0:01:52,Problem5,6,experiment
+Problem 5,E,S21,216,1,2,0,0,1,0,0,1,0,0:02:39,Problem5,4,experiment
+Problem 5,B,S22,236,12,10,7,0,2,10,0,1,0,0:12:48,Problem5,7,experiment
+Problem 5,B,S23,65,4,5,2,0,3,0,1,1,0,0:03:04,Problem5,7,experiment
+Problem 5,E,S24,48,1,1,0,0,1,0,0,0,0,0:01:55,Problem 5,7,experiment
+Problem 5,B,S25,75,6,1,5,0,6,0,0,1,0,0:02:09,Problem5,7,experiment
+Problem 5,C,S26,35,3,4,0,1,1,1,1,1,0,0:02:00,Problem5,7,experiment
+Problem 5,E,S27,203,1,1,0,0,1,0,0,1,0,0:01:14,Problem5,7,experiment
+Problem 5,C,S28,173,7,5,6,1,7,0,0,1,0,0:05:04,problem5,7,experiment
+Problem 5,E,S29,359,2,1,0,0,1,1,0,0,0,0:08:27,Problem5,7,experiment
+Problem 5,E,S30,32,1,1,0,0,1,0,0,1,0,0:01:56,Problem5,5,Experiment
+Problem 5,E,S31,181,2,1,0,0,1,1,0,1,0,0:09:24,PROBLEM5,5,EXPERIMENT
+Problem 5,E,S32,44,1,1,0,0,1,0,0,0,0,0:01:43,PROBLEM 5,5,EXPERIMENT
+Problem 5,C,S33,208,12,4,0,1,11,0,1,1,0,0:06:29,Problem5,5,experiment
+Problem 5,E,S34,90,1,1,0,0,1,0,0,1,0,0:03:37,Problem5,3,experiment
+Problem 5,B,S36,82,5,1,3,0,5,0,0,0,0,0:04:19,Problem5,6,experiment
+Problem 5,E,S37,34,1,1,0,0,1,0,0,0,0,0:01:29,PROBLEM5,7,EXPERIMENT
+Problem 5,E,A1,64,1,1,0,0,1,0,0,1,0,0:01:31,Problem 5,,experiment
+Problem 5,A,A2,113,2,1,0,0,0,1,1,0,0,0:03:24,Problem 5,,experiment
+Problem 5,A,A3,506,15,6,0,0,14,4,1,0,0,0:16:59,Problem5,,experiment
+Problem 5,A,A4,70,2,1,0,0,1,0,1,1,0,0:00:50,Problem 5,,experiment
+Problem 5,A,A5,309,2,7,0,0,2,0,0,0,0,0:10:25,Problem5,,experiment
+Problem 5,E,A6,17,1,1,0,0,1,0,0,1,0,0:12:00,Problem 5,,experiment
+Problem 5,A,A7,107,1,1,0,0,1,0,0,1,0,0:01:35,Problem 5,,experiment
+Problem 5,A,A8,320,5,4,0,0,4,0,1,0,0,0:12:47,Problem 5,,experiment
+Problem 5,E,A9,61,3,1,0,0,3,0,0,1,0,0:01:20,Problem 5,,experiment
+Problem 5,E,A11,22,1,1,0,0,1,0,0,0,0,0:02:31,Problem 5,,experiment
+Problem 5,E,A12,99,1,1,0,0,1,0,0,1,0,0:01:05,Problem 5,,experiment
+Problem 5,A,A13,34,1,1,0,0,1,0,0,1,0,0:01:14,Problem 5,,experiment
+Problem 5,A,A14,100,1,2,0,0,1,0,0,1,0,0:01:22,Problem 5,,experiment
+Problem 5,A,A15,131,3,2,0,0,4,0,5,0,0,0:13:44,problem 5,,experiment
+Problem 5,A,A16,81,2,1,0,0,1,0,1,0,0,0:02:52,Problem 5,,experiment
+Problem 5,A,A18,60,1,1,0,0,1,0,0,0,0,0:01:21,problem 5,,experiment
+Problem 5,A,A19,46,2,1,0,0,1,1,0,1,0,0:03:48,Problem 5,,experiment
+Problem 5,A,A20,15,1,1,0,0,1,0,0,0,0,0:02:23,Problem 5,,experiment
+Problem 5,E,A21,104,2,1,0,0,1,5,0,1,0,0:01:49,problem 5,,experiment
+Problem 5,A,A22,43,5,1,0,0,5,0,0,1,0,0:01:56,problem 5,,experiment
+Problem 5,B,B4,391,6,1,3,0,6,0,0,1,0,0:10:22,Problem 5,,Experiment
+Problem 5,E,B12,17,1,1,0,0,1,0,0,1,0,0:01:30,problem 5,,experiment
+Problem 5,B,B13,396,10,3,1,0,8,8,1,1,0,0:19:01,Problem5,,experiment
+Problem 5,E,B14,36,1,1,0,0,1,0,0,1,0,0:01:11,Problem 5,,experiment
+Problem 5,B,B15,54,4,1,3,0,4,0,0,1,0,0:02:05,Problem 5,,experiment
+Problem 5,C,B16,77,9,1,0,1,7,0,2,0,0,0:02:22,Problem  5,,experiment
+Problem 5,C,B17,42,6,2,0,1,2,2,2,1,0,0:01:18,Problem 5,,experiment
+Problem 5,B,B18,66,7,1,4,0,6,1,1,0,0,0:03:15,Problem 5,,experiment
+Problem 5,E,B19,124,4,1,0,0,4,0,0,0,0,0:03:55,problem 5,,experiment
+Problem 5,B,B20,80,5,1,3,0,4,1,0,0,0,0:03:21,Problem 5,,Experiment
+Problem 5,E,B21,62,2,1,0,0,2,1,0,1,0,0:02:52,Problem 5,,experiment
+Problem 5,C,B22,82,4,1,0,1,4,0,0,0,0,0:04:38,Problem  5,,experiment
+Problem 5,E,B23,67,2,4,0,0,1,0,1,1,0,0:10:16,Problem 5,,experiment
+Problem 5,E,B24,16,1,1,0,0,1,0,0,1,0,0:03:25,problem 5,,experiment
+Problem 5,E,B26,37,1,1,0,0,1,0,0,0,0,0:06:55,problem 5,,experiment
+Problem 5,C,B27,45,10,1,2,1,5,3,2,1,0,0:03:28,Problem 5,,experiment
+Problem 5,E,B28,9,1,1,0,0,1,0,0,0,0,0:00:58,Problem 5,,experiment
+Problem 5,E,B29,50,1,1,0,0,1,0,0,1,0,0:01:05,Problem5,,experiment
+Problem 5,B,B31,54,6,1,4,0,5,1,0,0,0,0:03:43,Problem 5,,experiment
+Problem 5,E,B32,95,1,1,0,0,1,0,0,1,0,0:01:43,problem 5,,experiment
+Problem 5,E,B33,17,1,1,0,0,1,0,0,1,0,0:02:10,Problem 5,,Experiment
+Problem 5,E,B34,13,1,1,0,0,1,0,0,1,0,0:01:54,problem 5,,experiment
+Problem 5,B,B35,87,6,1,5,0,6,0,0,1,0,0:03:55,Problem 5,,experiment
+Problem 5,C,B36,48,7,1,3,1,7,0,0,0,0,0:02:42,Problem 5 (2),,experiment
+Problem 5,E,B37,48,1,1,0,0,1,0,0,0,0,0:02:13,Problem5,,experiment
+Problem 5,E,B39,37,1,1,0,0,1,0,0,1,0,0:02:56,Problem 5,,experiment
+Problem 5,E,B40,22,1,2,0,0,1,0,0,1,0,0:00:34,Problem 5,,experiment
+Problem 5,D,B41,62,6,4,3,1,5,1,1,1,6,0:01:08,Problem 5,,experiment
+Problem 5,C,B42,30,2,1,0,1,1,1,0,1,0,0:02:00,Problem 5,,Experiment
+Problem 5,E,B43,44,4,1,0,0,4,0,0,0,0,0:01:57,Problem 5,,experiment
+Problem 5,E,B44,67,7,1,0,0,5,0,2,0,0,0:02:46,problem 5,,experiment
+Problem 5,E,B45,17,1,1,0,0,1,0,0,1,0,0:01:00,Problem 5,,experiment
+Problem 5,E,B46,82,6,1,0,0,4,0,3,1,0,0:06:25,problem 5,,experiment
+Problem 5,E,B48,90,1,3,0,0,5,0,0,0,0,0:02:12,Problem 5,,experiment
+Problem 5,B,B49,40,6,1,5,0,6,0,0,0,0,0:02:36,Problem 5,,experiment
+Problem 5,A,S38,15,1,1,0,0,1,0,0,0,0,0:01:21,Problem5,5,Experiment
+Problem 5,A,S39,18,1,1,0,0,1,0,0,0,0,0:01:31,Problem5,6,experiment
+Problem 5,A,S40,81,1,1,0,0,1,0,0,0,0,0:02:12,problem5,7,experiment
+Problem 5,A,S41,42,1,1,0,0,1,0,0,0,0,0:02:21,Problem5,7,experiment
+Problem 5,A,S42,127,6,1,0,0,1,4,1,0,0,0:11:19,Problem5,4,experiment
+Problem 5,A,S43,60,1,7,0,0,1,0,0,1,0,0:09:39,problem5,7,experiment
+Problem 5,A,S44,112,1,1,0,0,1,0,0,0,0,0:02:49,PROBLEM5,5,EXPERIMENT
+Problem 5,A,S45,75,2,1,0,0,1,0,1,0,0,0:01:23,problem5,7,experimment
+Problem 5,A,S46,88,2,1,0,0,1,0,1,1,0,0:05:59,Problem5,5,experiment
+Problem 5,A,S47,692,1,5,0,0,1,0,0,1,0,0:13:20,problem5,7,experiment
+Problem 5,A,S48,15,1,1,0,0,1,0,0,1,0,0:01:05,Problem5,7,experiment
+Problem 5,A,S49,196,2,2,0,0,1,0,1,0,0,0:10:34,problem5,2,emperiment
+Problem 5,A,S50,50,1,1,0,0,1,0,0,0,0,0:02:07,Problem5,7,experiment
+Problem 5,A,S51,126,2,18,0,0,1,0,1,1,0,0:16:45,Problem5,7,experiment
+Problem 5,A,S52,57,1,4,0,0,1,0,0,1,0,0:02:36,Problem5,5,experiment
