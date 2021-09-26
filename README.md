@@ -28,8 +28,6 @@ bash install.sh
 * install django==1.8
 * * pip (or pip3) install django==1.8
 * dependencies:
-* * import-export
-  https://github.com/django-import-export/django-import-export/issues/200
 * * pymysql
 * * numpy
 * * scipy
