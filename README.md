@@ -3,15 +3,15 @@
 ## Frondtend
 
 ### Folders
- * Templates : geonome-vis\django\heatmap\templates
- * Module sources: geonome-vis\django\static\src
- * Module css : geonome-vis\django\static\css\modules
+ * Templates : django\heatmap\templates
+ * Module sources: django\static\src
+ * Module css : django\static\css\modules
 
 ### Modules
- * userManager : geonome-vis\django\static\src\userManager
- * unitManager : geonome-vis\django\static\src\unitManager
- * historyManager : geonome-vis\django\static\src\historyManager
- * visualizer : geonome-vis\django\static\src\visualizer
+ * userManager : django\static\src\userManager
+ * unitManager : django\static\src\unitManager
+ * historyManager : django\static\src\historyManager
+ * visualizer : django\static\src\visualizer
 
 ### Dependency
 
@@ -44,13 +44,6 @@ bash install.sh
 #!python
 
  DATABASES = {
-    'default': {
-    'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'genovis',
-    'USER': 'genomevis',
-    'PASSWORD': 'iVADER404-2',
-    'HOST': 'ivaderlab.unist.ac.kr',
-    'PORT': '8983'
-    }
+    연구실 정보는 비공개처리 하였습니다.
 }
 ```
